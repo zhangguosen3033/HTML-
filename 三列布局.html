@@ -1,0 +1,24 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>三列布局</title>
+<style type="text/css">
+body{margin:0;padding:0}
+/*.left{width:200px;height:500px;float:left;background:#ccc}
+.middle{height:500px;float:left;background:#999}
+.right{width:300px;height:500px;float:right;background:#ddd}
+.main{width:800px;margin:0 auto}      以上方法设计会导致三列布局界面混乱*/ 
+
+.left{width:200px;height:500px;background:#ccc;position:absolute;left:0;top:0} /*//先固定 左边的试图 位置在左上角*/
+.middle{height:500px;float:left;background:#999;margin:0 310px 0 210px}    /*//注意此处边界距离设计的特殊性(方向)   按照 上 右 下 左的 顺序  */
+.right{width:300px;height:500px;background:#ccc;position:absolute;right:0;top:0}
+</style>
+
+</head>
+<body>
+  <div class="left">200px</div>
+  <div class="middle">1.浮动 float   2.绝对定位 (position absolute)  这两个css设置可以让元素脱离文档流1.浮动 float   2.绝对定位 (position absolute)  这两个css设置可以让元素脱离文档流1.浮动 float   2.绝对定位 (position absolute)  这两个css设置可以让元素脱离文档流1.浮动 float   2.绝对定位 (position absolute)  这两个css设置可以让元素脱离文档流</div>
+  <div class="right">300px</div>
+</body>
+</html>
