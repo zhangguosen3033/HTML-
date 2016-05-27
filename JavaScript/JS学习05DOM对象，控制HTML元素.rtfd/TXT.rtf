@@ -1,0 +1,862 @@
+{\rtf1\ansi\ansicpg936\cocoartf1404\cocoasubrtf340
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fnil\fcharset0 MicrosoftYaHei;\f2\fnil\fcharset0 Monaco;
+\f3\fnil\fcharset134 PingFangSC-Regular;\f4\fnil\fcharset0 Verdana;}
+{\colortbl;\red255\green255\blue255;\red217\green11\blue0;\red233\green238\blue239;\red16\green19\blue23;
+\red24\green27\blue29;\red234\green234\blue234;\red0\green68\blue254;\red46\green111\blue253;\red251\green0\blue7;
+\red16\green109\blue180;\red198\green205\blue208;\red255\green39\blue18;\red0\green61\blue204;\red0\green0\blue0;
+\red247\green247\blue247;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs36 \cf2 1.
+\f1 \cb3 \expnd0\expndtw0\kerning0
+\uc0\u35748 \u35782 DOM\cf4 \
+\pard\pardeftab720\partightenfactor0
+\cf5 \uc0\u25991 \u26723 \u23545 \u35937 \u27169 \u22411 DOM\u65288 Document Object Model\u65289 \u23450 \u20041 \u35775 \u38382 \u21644 \u22788 \u29702 HTML\u25991 \u26723 \u30340 \u26631 \u20934 \u26041 \u27861 \u12290 DOM\'a0\u23558 HTML\u25991 \u26723 \u21576 \u29616 \u20026 \u24102 \u26377 \u20803 \u32032 \u12289 \u23646 \u24615 \u21644 \u25991 \u26412 \u30340 \u26641 \u32467 \u26500 \u65288 \u33410 \u28857 \u26641 \u65289 \u12290 \
+\cf2 2.getElementsByName()\uc0\u26041 \u27861 \
+\cf5 \uc0\u36820 \u22238 \u24102 \u26377 \u25351 \u23450 \u21517 \u31216 \u30340 \u33410 \u28857 \u23545 \u35937 \u30340 \u38598 \u21512 \u12290 \cb1 \
+\cb3 \uc0\u35821 \u27861 \u65306 \cb1 \
+\pard\pardeftab720\partightenfactor0
+
+\f2 \cf4 \cb6 document.getElement\cf2 s\cf4 ByName(name)\
+\pard\pardeftab720\partightenfactor0
+
+\f1 \cf5 \cb3 \uc0\u19982 getElementById() \u26041 \u27861 \u19981 \u21516 \u30340 \u26159 \u65292 \u36890 \u36807 \u20803 \u32032 \u30340  name \u23646 \u24615 \u26597 \u35810 \u20803 \u32032 \u65292 \u32780 \u19981 \u26159 \u36890 \u36807 \'a0id \u23646 \u24615 \u12290 \cb1 \
+\cb3 \uc0\u27880 \u24847 :\cb1 \
+\cb3 1.\'a0\uc0\u22240 \u20026 \u25991 \u26723 \u20013 \u30340  name \u23646 \u24615 \u21487 \u33021 \u19981 \u21807 \u19968 \u65292 \u25152 \u26377  getElementsByName() \u26041 \u27861 \u36820 \u22238 \u30340 \u26159 \u20803 \u32032 \u30340 \u25968 \u32452 \u65292 \u32780 \u19981 \u26159 \u19968 \u20010 \u20803 \u32032 \u12290 \cb1 \
+\cb3 2.\'a0\uc0\u21644 \u25968 \u32452 \u31867 \u20284 \u20063 \u26377 length\u23646 \u24615 \u65292 \u21487 \u20197 \u21644 \u35775 \u38382 \u25968 \u32452 \u19968 \u26679 \u30340 \u26041 \u27861 \u26469 \u35775 \u38382 \u65292 \u20174 0\u24320 \u22987 \u12290 \
+\cf2 3.getElementsByTagName()\uc0\u26041 \u27861 \
+\cf5 \uc0\u36820 \u22238 \u24102 \u26377 \u25351 \u23450 \u26631 \u31614 \u21517 \u30340 \u33410 \u28857 \u23545 \u35937 \u30340 \u38598 \u21512 \u12290 \u36820 \u22238 \u20803 \u32032 \u30340 \u39034 \u24207 \u26159 \u23427 \u20204 \u22312 \u25991 \u26723 \u20013 \u30340 \u39034 \u24207 \u12290 \cb1 \
+\cb3 \uc0\u35821 \u27861 :\cb1 \
+\pard\pardeftab720\partightenfactor0
+
+\f2 \cf4 \cb6 getElementsByTagName(Tagname)\
+\pard\pardeftab720\partightenfactor0
+
+\f1 \cf5 \cb3 \uc0\u35828 \u26126 :\cb1 \
+\cb3 1. Tagname\uc0\u26159 \u26631 \u31614 \u30340 \u21517 \u31216 \u65292 \u22914 p\u12289 a\u12289 img\u31561 \u26631 \u31614 \u21517 \u12290 \cb1 \
+\cb3 2. \uc0\u21644 \u25968 \u32452 \u31867 \u20284 \u20063 \u26377 length\u23646 \u24615 \u65292 \u21487 \u20197 \u21644 \u35775 \u38382 \u25968 \u32452 \u19968 \u26679 \u30340 \u26041 \u27861 \u26469 \u35775 \u38382 \u65292 \u25152 \u20197 \u20174 0\u24320 \u22987 \u12290 \
+\
+\pard\pardeftab720\partightenfactor0
+\cf7 \uc0\u20195 \u30721 \u20030 \u20363 \u65306 \cf5 \
+      function getValue()\
+          \{\
+             var myH=\cf7 document.getElementById\cf5 ("myHead");\
+              alert(myH.innerHTML)\
+          \}\
+          function getElements()\
+          \{\
+              var myS = \cf8 document.getElementsByName\cf5 ("sex");\
+              alert(myS.length);\
+          \}\
+\
+          function getTagElements()\
+          \{\
+               var myI = \cf8 document.getElementsByTagName\cf5 ("input");\
+              alert(myI.length);\
+          \}\
+\
+\pard\pardeftab720\partightenfactor0
+\cf2 4.\cf2 \cb3 \uc0\u21306 \u21035 getElementByID,getElementsByName,getElementsByTagName\cf4 \
+\pard\pardeftab720\partightenfactor0
+\cf5 \cb3 \uc0\u20197 \u20154 \u26469 \u20030 \u20363 \u35828 \u26126 \u65292 \u20154 \u26377 \u33021 \u26631 \u35782 \u36523 \u20221 \u30340 \u36523 \u20221 \u35777 \u65292 \u26377 \u22995 \u21517 \u65292 \u26377 \u31867 \u21035 (\u22823 \u20154 \u12289 \u23567 \u23401 \u12289 \u32769 \u20154 )\u31561 \u12290 \cb1 \
+\cb3 1. ID \uc0\u26159 \u19968 \u20010 \u20154 \u30340 \u36523 \u20221 \u35777 \u21495 \u30721 \u65292 \u26159 \u21807 \u19968 \u30340 \u12290 \u25152 \u20197 \u36890 \u36807 getElementById\u33719 \u21462 \u30340 \u26159 \u25351 \u23450 \u30340 \u19968 \u20010 \u20154 \u12290 \cb1 \
+\cb3 2. Name \uc0\u26159 \u20182 \u30340 \u21517 \u23383 \u65292 \u21487 \u20197 \u37325 \u22797 \u12290 \u25152 \u20197 \u36890 \u36807 getElementsByName\u33719 \u21462 \u21517 \u23383 \u30456 \u21516 \u30340 \u20154 \u38598 \u21512 \u12290 \cb1 \
+\cb3 3.\'a0TagName\uc0\u21487 \u30475 \u20284 \u26576 \u31867 \u65292 getElementsByTagName\u33719 \u21462 \u30456 \u21516 \u31867 \u30340 \u20154 \u38598 \u21512 \u12290 \u22914 \u33719 \u21462 \u23567 \u23401 \u36825 \u31867 \u20154 \u65292 getElementsByTagName("\u23567 \u23401 ")\u12290 \cb1 \
+\cb3 \uc0\u25226 \u19978 \u38754 \u30340 \u20363 \u23376 \u36716 \u25442 \u21040 HTML\u20013 \u65292 \u22914 \u19979 :\cb1 \
+\pard\pardeftab720\partightenfactor0
+
+\f2 \cf4 \cb6 <\cf9 input\cf4  type="checkbox"\cf9  name\cf4 ="hobby" \cf9 id\cf4 ="hobby1">  
+\f3 \'d2\'f4\'c0\'d6
+\f2 \
+\pard\pardeftab720\partightenfactor0
+
+\f1 \cf5 \cb3 input\uc0\u26631 \u31614 \u23601 \u20687 \u20154 \u30340 \u31867 \u21035 \u12290 \cb1 \
+\cb3 name\uc0\u23646 \u24615 \u23601 \u20687 \u20154 \u30340 \u22995 \u21517 \u12290 \cb1 \
+\cb3 id\uc0\u23646 \u24615 \u23601 \u20687 \u20154 \u30340 \u36523 \u20221 \u35777 \u12290 \cb1 \
+\cb3 \uc0\u26041 \u27861 \u24635 \u32467 \u22914 \u19979 :\cb1 \
+\pard\pardeftab720\partightenfactor0
+{\field{\*\fldinst{HYPERLINK "http://img.mukewang.com/5405263300018bcf05760129.jpg"}}{\fldrslt \cf10 {{\NeXTGraphic 5405263300018bcf05760129.jpg.png \width8640 \height1935 \noorient
+}¬}}}\pard\pardeftab720\partightenfactor0
+\cf5 \
+\cb3 \uc0\u27880 \u24847 \u65306 \u26041 \u27861 \u21306 \u20998 \u22823 \u23567 \u20889 \cb1 \
+\cb3 \uc0\u36890 \u36807 \u19979 \u38754 \u30340 \u20363 \u23376 (6\u20010 name="hobby"\u30340 \u22797 \u36873 \u39033 \u65292 \u20004 \u20010 \u25353 \u38062 )\u26469 \u21306 \u20998 \u19977 \u31181 \u26041 \u27861 \u30340 \u19981 \u21516 :\cb1 \
+\pard\pardeftab720\partightenfactor0
+
+\f2 \cf4 \cb6   <input type="checkbox" name="hobby" id="hobby1">  
+\f3 \'d2\'f4\'c0\'d6
+\f2 \
+  <input type="checkbox" name="hobby" id="hobby2">  
+\f3 \'b5\'c7\'c9\'bd
+\f2 \
+  <input type="checkbox" name="hobby" id="hobby3">  
+\f3 \'d3\'ce\'d3\'be
+\f2 \
+  <input type="checkbox" name="hobby" id="hobby4">  
+\f3 \'d4\'c4\'b6\'c1
+\f2 \
+  <input type="checkbox" name="hobby" id="hobby5">  
+\f3 \'b4\'f2\'c7\'f2
+\f2 \
+  <input type="checkbox" name="hobby" id="hobby6">  
+\f3 \'c5\'dc\'b2\'bd
+\f2  \
+  <input type="button" value = "
+\f3 \'c8\'ab\'d1\'a1
+\f2 " id="button1">\
+  <input type="button" value = "
+\f3 \'c8\'ab\'b2\'bb\'d1\'a1
+\f2 " 
+\f0 id="button1">
+\f2 \
+\pard\pardeftab720\partightenfactor0
+
+\f1 \cf5 \cb3 1. document.getElementsByTagName("input")\uc0\u65292 \u32467 \u26524 \u20026 \u33719 \u21462 \u25152 \u26377 \u26631 \u31614 \u20026 input\u30340 \u20803 \u32032 \u65292 \u20849 8\u20010 \u12290 \cb1 \
+\cb3 2.\'a0document.getElementsByName("hobby")\uc0\u65292 \u32467 \u26524 \u20026 \u33719 \u21462 \u23646 \u24615 name="hobby"\u30340 \u20803 \u32032 \u65292 \u20849 6\u20010 \u12290 \cb1 \
+\cb3 3.\'a0document.getElementById("hobby6")\uc0\u65292 \u32467 \u26524 \u20026 \u33719 \u21462 \u23646 \u24615 id="hobby6"\u30340 \u20803 \u32032 \u65292 \u21482 \u26377 \u19968 \u20010 \u65292 "\u36305 \u27493 "\u36825 \u20010 \u22797 \u36873 \u39033 \u12290 \
+\
+\cf2 \cb1 \uc0\u20195 \u30721 \u20030 \u20363 \u65306 \u20960 \u20010 \u29233 \u22909 \u30340 \u36873 \u20013   \u19982 \u19981 \u36873 \u20013 \u29366 \u24577  \u20999 \u25442 \cf5 \
+<html>\
+    <head>\
+        <meta http-equiv="Content-Type" content="text/html; charset=gb2312">\
+        <title>\uc0\u26080 \u26631 \u39064 \u25991 \u26723 </title>\
+    </head>\
+    \
+    <body>\
+        <form>\
+          \uc0\u35831 \u36873 \u25321 \u20320 \u29233 \u22909 :<br>\
+\uc0\u21306 \u21035 getElementByID,getElementsByName,getEle          <input type="checkbox" name="hobby" id="hobby1">  \u38899 \u20048 \
+          <input type="checkbox" name="hobby" id="hobby2">  \uc0\u30331 \u23665 \
+          <input type="checkbox" name="hobby" id="hobby3">  \uc0\u28216 \u27891 \
+          <input type="checkbox" name="hobby" id="hobby4">  \uc0\u38405 \u35835 \
+          <input type="checkbox" name="hobby" id="hobby5">  \uc0\u25171 \u29699 \
+          <input type="checkbox" name="hobby" id="hobby6">  \uc0\u36305 \u27493  <br>\
+          <input type="button" value = "\uc0\u20840 \u36873 " onclick = "checkall();">\
+          <input type="button" value = "\uc0\u20840 \u19981 \u36873 " onclick = "clearall();">\
+          <p>\uc0\u35831 \u36755 \u20837 \u24744 \u35201 \u36873 \u25321 \u29233 \u22909 \u30340 \u24207 \u21495 \u65292 \u24207 \u21495 \u20026 1-6:</p>\
+          <input id="wb" name="wb" type="text" >\
+          <input name="ok" type="button" value="\uc0\u30830 \u23450 " onclick = "checkone();">\
+        </form>\
+        <script type="text/javascript">\
+        function checkall()\{\
+            var hobby = document.getElementsByTagName("input");\
+             for(i = 0;i < hobby.length;i++)\{\
+                    if(hobby[i].type == "checkbox")\{\
+                      hobby[i].checked = true;   \}\
+                  \}\
+           \
+        \}\
+        function clearall()\{\
+            var hobby = document.getElementsByName("hobby");\
+            \
+    for(i = 0;i < hobby.length;i++)\{\
+                hobby[i].checked = false;\}\
+        \}                    \
+        \}\
+        \
+        function checkone()\{\
+            var j=document.getElementById("wb").value;\
+        \
+      var hobby = document.getElementById("hobby"+j);\
+            hobby.checked = true;          \
+        \}\
+        \
+        </script>\
+    </body>\
+</html>\
+\
+\pard\pardeftab720\partightenfactor0
+\cf2 \cb3 5.\cb3 getAttribute()\uc0\u26041 \u27861 \cf4 \
+\pard\pardeftab720\partightenfactor0
+\cf5 \cb3 \uc0\u36890 \u36807 \u20803 \u32032 \u33410 \u28857 \u30340 \u23646 \u24615 \u21517 \u31216 \u33719 \u21462 \u23646 \u24615 \u30340 \u20540 \u12290 \cb1 \
+\cb3 \uc0\u35821 \u27861 \u65306 \cb1 \
+\pard\pardeftab720\partightenfactor0
+
+\f2 \cf4 \cb6 elementNode.getAttribute(name)\
+\pard\pardeftab720\partightenfactor0
+
+\f1 \cf5 \cb3 \uc0\u35828 \u26126 :\cb1 \
+\cb3 1. elementNode\uc0\u65306 \u20351 \u29992 getElementById()\u12289 getElementsByTagName()\u31561 \u26041 \u27861 \u65292 \u33719 \u21462 \u21040 \u30340 \u20803 \u32032 \u33410 \u28857 \u12290 \cb1 \
+\pard\pardeftab720\partightenfactor0
+\cf8 \cb3 2. name\uc0\u65306 \u35201 \u24819 \u26597 \u35810 \u30340 \u20803 \u32032 \u33410 \u28857 \u30340 \u23646 \u24615 \u21517 \u23383 \cf5 \
+\uc0\u20195 \u30721 \u23454 \u29616 \u65306 \cf4 \cb11 \uc0\u65292 \u20351 \u29992 getAttribute()\u26041 \u27861 \u65292 \u33719 \u21462 LI\u26631 \u31614 \u30340 title\u20540 \
+<body>   \
+<p id="intro">\uc0\u35838 \u31243 \u21015 \u34920 </p>  \
+    <ul>  \
+        <li title="\uc0\u31532 1\u20010 li">HTML</li>  \
+        <li>CSS</li>  \
+        <li title="\uc0\u31532 3\u20010 li">JavaScript</li>  \
+        <li title="\uc0\u31532 4\u20010 li">Jquery</li>  \
+        <li>Html5</li>  \
+    </ul>  \
+<p>\uc0\u20197 \u19979 \u20026 \u33719 \u21462 \u30340 \u19981 \u20026 \u31354 \u30340 li\u26631 \u31614 title\u20540 :</p>\
+<script type="text/javascript">\
+\pard\pardeftab720\partightenfactor0
+\cf8    var con=document.getElementsByTagName("li");\
+\cf4     for (var i=0; i< con.length;i++)\{\
+\cf7       var text=con[i].getAttribute("title");\
+\cf4       if(text!=null)\
+      \{\
+        document.write(text+"<br>");\
+      \}\
+    \} \
+ </script> \
+</body>\
+\cf12 6.\cb3 setAttribute()\uc0\u26041 \u27861 \cf4 \
+\pard\pardeftab720\partightenfactor0
+\cf5 \cb3 etAttribute() \uc0\u26041 \u27861 \u22686 \u21152 \u19968 \u20010 \u25351 \u23450 \u21517 \u31216 \u21644 \u20540 \u30340 \u26032 \u23646 \u24615 \u65292 \u25110 \u32773 \u25226 \u19968 \u20010 \u29616 \u26377 \u30340 \u23646 \u24615 \u35774 \u23450 \u20026 \u25351 \u23450 \u30340 \u20540 \u12290 \cb1 \
+\cb3 \uc0\u35821 \u27861 \u65306 \cb1 \
+\pard\pardeftab720\partightenfactor0
+
+\f2 \cf4 \cb6 elementNode.setAttribute(name,value)\
+\pard\pardeftab720\partightenfactor0
+
+\f1 \cf5 \cb3 \uc0\u35828 \u26126 \u65306 \cb1 \
+\cb3 1.name:\'a0\uc0\u35201 \u35774 \u32622 \u30340 \u23646 \u24615 \u21517 \u12290 \cb1 \
+\cb3 2.value:\'a0\uc0\u35201 \u35774 \u32622 \u30340 \u23646 \u24615 \u20540 \u12290 \cb1 \
+\cb3 \uc0\u27880 \u24847 \u65306 \cb1 \
+\cb3 1.\uc0\u25226 \u25351 \u23450 \u30340 \u23646 \u24615 \u35774 \u32622 \u20026 \u25351 \u23450 \u30340 \u20540 \u12290 \u22914 \u26524 \u19981 \u23384 \u22312 \u20855 \u26377 \u25351 \u23450 \u21517 \u31216 \u30340 \u23646 \u24615 \u65292 \u35813 \u26041 \u27861 \u23558 \u21019 \u24314 \u19968 \u20010 \u26032 \u23646 \u24615 \u12290 \cb1 \
+\cb3 2.\uc0\u31867 \u20284 \u20110 getAttribute()\u26041 \u27861 \u65292 setAttribute()\u26041 \u27861 \u21482 \u33021 \u36890 \u36807 \u20803 \u32032 \u33410 \u28857 \u23545 \u35937 \u35843 \u29992 \u30340 \u20989 \u25968 \u12290 \
+\
+\pard\pardeftab720\partightenfactor0
+\cf2 \uc0\u20351 \u29992 \u20195 \u30721 \u20030 \u20363 \u65306 \cf5 \
+<body>\
+  <p id="intro">\uc0\u25105 \u30340 \u35838 \u31243 </p>  \
+  <ul>  \
+    <li title="JS">JavaScript</li>  \
+    <li title="JQ">JQuery</li>  \
+    <li title="">HTML/CSS</li>  \
+    <li title="JAVA">JAVA</li>  \
+    <li title="">PHP</li>  \
+  </ul>  \
+  <h1>\uc0\u20197 \u19979 \u20026 li\u21015 \u34920 title\u30340 \u20540 ,\u24403 title\u20026 \u31354 \u26102 \u65292 \u26032 \u35774 \u32622 \u20540 \u20026 "WEB\u21069 \u31471 \u25216 \u26415 ":</h1>\
+<script type="text/javascript">\
+\cf7   var Lists=document.getElementsByTagName("li");\
+\pard\pardeftab720\partightenfactor0
+\cf5   for (var i=0; i<Lists.length;i++)\
+  \{\
+\pard\pardeftab720\partightenfactor0
+\cf7     var text = Lists[i].getAttribute("title");\
+\pard\pardeftab720\partightenfactor0
+\cf5     document.write(text +"<br>");\
+    if(text=="")\
+    \{\
+\pard\pardeftab720\partightenfactor0
+\cf7     Lists[i].setAttribute("title","WEB\uc0\u21069 \u31471 \u25216 \u26415 ");    //\u20026 \u31354 \u30340 \u26102 \u20505 \u35774 \u32622 \u26032 \u30340 \u23646 \u24615 \
+\pard\pardeftab720\partightenfactor0
+\cf5     document.write(Lists[i].getAttribute("title")+"<br>");\
+    \}\
+  \}\
+</script>\
+</body>\
+</html>\
+\
+\pard\pardeftab720\partightenfactor0
+\cf2 7.\cb3 \uc0\u33410 \u28857 \u23646 \u24615 \cf4 \
+\pard\pardeftab720\partightenfactor0
+\cf5 \cb3 \uc0\u22312 \u25991 \u26723 \u23545 \u35937 \u27169 \u22411  (DOM) \u20013 \u65292 \u27599 \u20010 \u33410 \u28857 \u37117 \u26159 \u19968 \u20010 \u23545 \u35937 \u12290 DOM \u33410 \u28857 \u26377 \u19977 \u20010 \u37325 \u35201 \u30340 \u23646 \u24615  \u65306 \cb1 \
+\cb3 1. nodeName : \uc0\u33410 \u28857 \u30340 \u21517 \u31216 \cb1 \
+\cb3 2. nodeValue \uc0\u65306 \u33410 \u28857 \u30340 \u20540 \cb1 \
+\cb3 3. nodeType \uc0\u65306 \u33410 \u28857 \u30340 \u31867 \u22411 \cb1 \
+\cb3 \uc0\u19968 \u12289 nodeName \u23646 \u24615 :\'a0\u33410 \u28857 \u30340 \u21517 \u31216 \u65292 \u26159 \u21482 \u35835 \u30340 \u12290 \cb1 \
+\cb3 1.\'a0\uc0\u20803 \u32032 \u33410 \u28857 \u30340  nodeName \u19982 \u26631 \u31614 \u21517 \u30456 \u21516 \cb1 \
+\cb3 2.\'a0\uc0\u23646 \u24615 \u33410 \u28857 \u30340  nodeName \u26159 \u23646 \u24615 \u30340 \u21517 \u31216 \cb1 \
+\cb3 3.\'a0\uc0\u25991 \u26412 \u33410 \u28857 \u30340  nodeName \u27704 \u36828 \u26159  #text\cb1 \
+\cb3 4.\'a0\uc0\u25991 \u26723 \u33410 \u28857 \u30340  nodeName \u27704 \u36828 \u26159  #document\cb1 \
+\cb3 \uc0\u20108 \u12289 nodeValue \u23646 \u24615 \u65306 \u33410 \u28857 \u30340 \u20540 \cb1 \
+\cb3 1. \uc0\u20803 \u32032 \u33410 \u28857 \u30340  nodeValue \u26159 \'a0undefined \u25110  null\cb1 \
+\cb3 2. \uc0\u25991 \u26412 \u33410 \u28857 \u30340  nodeValue \u26159 \u25991 \u26412 \u33258 \u36523 \cb1 \
+\cb3 3. \uc0\u23646 \u24615 \u33410 \u28857 \u30340  nodeValue \u26159 \u23646 \u24615 \u30340 \u20540 \cb1 \
+\cb3 \uc0\u19977 \u12289 nodeType \u23646 \u24615 : \u33410 \u28857 \u30340 \u31867 \u22411 \u65292 \u26159 \u21482 \u35835 \u30340 \u12290 \u20197 \u19979 \u24120 \u29992 \u30340 \u20960 \u31181 \u32467 \u28857 \u31867 \u22411 :\cb1 \
+\cb3 \uc0\u20803 \u32032 \u31867 \u22411 \'a0\'a0 \'a0\u33410 \u28857 \u31867 \u22411 \cb1 \
+\cb3 \'a0 \uc0\u20803 \u32032  \'a0 \'a0 \'a0 \'a0 \'a01\cb1 \
+\cb3 \'a0 \uc0\u23646 \u24615  \'a0 \'a0 \'a0 \'a0 \'a02\cb1 \
+\cb3 \'a0 \uc0\u25991 \u26412  \'a0 \'a0 \'a0 \'a0 \'a03\cb1 \
+\cb3 \'a0 \uc0\u27880 \u37322  \'a0 \'a0 \'a0 \'a0 \'a08\cb1 \
+\cb3 \'a0 \uc0\u25991 \u26723  \'a0 \'a0 \'a0 \'a0 \'a09\
+\
+\pard\pardeftab720\partightenfactor0
+\cf4 \cb11 \uc0\u22312 <script>\u30340 \u26631 \u31614 \u20869 \u23481 \u65292 \u33719 \u21462 \u25152 \u26377 LI\u26631 \u31614 \u65292 \u24182 \u36755 \u20986 \u30456 \u24212 \u33410 \u28857 \u30340 \u21517 \u31216 \u12289 \u33410 \u28857 \u30340 \u20540 \u12289 \u33410 \u28857 \u30340 \u31867 \u22411 \u12290 \
+<body>\
+  <ul>\
+     <li>javascript</li>\
+     <li>HTML/CSS</li>\
+     <li>jQuery</li>     \
+  </ul>\
+  <script type="text/javascript">\
+\cf7     var node=document.getElementsByTagName("li");\
+\cf4     for(var i=0;i<node.length;i++)\{\
+      document.write("li["+(i+1)+"]:"+"<br/>"+"\uc0\u33410 \u28857 \u21517 :"+node[i].nodeName+"<br/>");\
+      document.write("\uc0\u33410 \u28857 \u20540 :"+node[i].nodeValue+"<br/>");\
+      document.write("\uc0\u33410 \u28857 \u31867 \u22411 :"+node[i].nodeType+"<br/><br/>");\
+        \}\
+  </script>\
+</body>\
+\
+\cf2 8.\cb3 \uc0\u35775 \u38382 \u23376 \u32467 \u28857 childNodes\
+\pard\pardeftab720\partightenfactor0
+\cf5 \cb3 \uc0\u35775 \u38382 \u36873 \u23450 \u20803 \u32032 \u33410 \u28857 \u19979 \u30340 \u25152 \u26377 \u23376 \u33410 \u28857 \u30340 \u21015 \u34920 \u65292 \u36820 \u22238 \u30340 \u20540 \u21487 \u20197 \u30475 \u20316 \u26159 \u19968 \u20010 \u25968 \u32452 \u65292 \u20182 \u20855 \u26377 length\u23646 \u24615 \u12290 \cb1 \
+\cb3 \uc0\u35821 \u27861 \u65306 \cb1 \
+\pard\pardeftab720\partightenfactor0
+
+\f2 \cf4 \cb6 elementNode.childNodes\
+\pard\pardeftab720\partightenfactor0
+
+\f1 \cf5 \cb3 \uc0\u27880 \u24847 \u65306 \cb1 \
+\cb3 \uc0\u22914 \u26524 \u36873 \u23450 \u30340 \u33410 \u28857 \u27809 \u26377 \u23376 \u33410 \u28857 \u65292 \u21017 \u35813 \u23646 \u24615 \u36820 \u22238 \u19981 \u21253 \u21547 \u33410 \u28857 \u30340  NodeList\u12290 \
+\uc0\u27880 \u24847 :\cb1 \
+\cb3 1. IE\uc0\u20840 \u31995 \u21015 \u12289 firefox\u12289 chrome\u12289 opera\u12289 safari\u20860 \u23481 \u38382 \u39064 \cb1 \
+\cb3 2.\'a0\uc0\u33410 \u28857 \u20043 \u38388 \u30340 \u31354 \u30333 \u31526 \u65292 \u22312 firefox\u12289 chrome\u12289 opera\u12289 safari\u27983 \u35272 \u22120 \u26159 \u25991 \u26412 \u33410 \u28857 \u65292 \u25152 \u20197 IE\u26159 3\u65292 \u20854 \u23427 \u27983 \u35272 \u22120 \u26159 7\u65292 \u22914 \u19979 \u22270 \u25152 \u31034 :\cb1 \
+\pard\pardeftab720\partightenfactor0
+{\field{\*\fldinst{HYPERLINK "http://img.mukewang.com/538d2b8a000163e303430127.jpg"}}{\fldrslt \cf10 {{\NeXTGraphic 538d2b8a000163e303430127.jpg.png \width5145 \height1905 \noorient
+}¬}}}\pard\pardeftab720\partightenfactor0
+\cf5 \
+\cb3 \uc0\u22914 \u26524 \u25226 \u20195 \u30721 \u25913 \u25104 \u36825 \u26679 :\cb1 \
+\cb3 <ul><li>javascript</li><li>jQuery</li><li>PHP</li></ul>\cb1 \
+\cb3 \uc0\u36816 \u34892 \u32467 \u26524 :\u65288 IE\u21644 \u20854 \u23427 \u27983 \u35272 \u22120 \u32467 \u26524 \u26159 \u19968 \u26679 \u30340 \u65289 \cb1 \
+\pard\pardeftab720\partightenfactor0
+
+\f2 \cf4 \cb6   UL
+\f3 \'d7\'d3\'bd\'da\'b5\'e3\'b8\'f6\'ca\'fd
+\f2 :3\
+  
+\f3 \'bd\'da\'b5\'e3\'c0\'e0\'d0\'cd
+\f2 :1\
+
+\f3 \cf2 \'ca\'be\'c0\'fd\'b4\'fa\'c2\'eb\'a3\'ba
+\f2 \cf4 \
+<body>\
+<div>\
+  javascript  \
+  <p>javascript</p>\
+  <div>jQuery</div>\
+  <h5>PHP</h5>\
+</div>\
+<script type="text/javascript">\
+  var node=document.getElementsByTagName("div")[0].childNodes;\
+ for(var i=0;i<node.length;i++)\
+ \{\
+    document.write("[
+\f3 \'b5\'da
+\f2 "+(i+1)+"
+\f3 \'b8\'f6\'bd\'da\'b5\'e3
+\f2 ]"+"<br/>"+"
+\f3 \'bd\'da\'b5\'e3\'c3\'fb\'a3\'ba
+\f2 "+node[i].nodeName+"<br/>"+"
+\f3 \'bd\'da\'b5\'e3\'c0\'e0\'d0\'cd\'a3\'ba
+\f2 "+node[i].nodeType+"<br/>"+"
+\f3 \'bd\'da\'b5\'e3\'d6\'b5\'a3\'ba
+\f2 "+node.nodeValue+"<br/>"+"<br/>")\
+ \}\
+</script>\
+</body>\
+\cf2 9.
+\f1 \cb3 \uc0\u35775 \u38382 \u23376 \u32467 \u28857 \u30340 \u31532 \u19968 \u21644 \u26368 \u21518 \u39033 \cf4 \
+\pard\pardeftab720\partightenfactor0
+\cf5 \cb3 \uc0\u19968 \u12289 
+\f2 \cf5 \cb6 firstChild 
+\f1 \cf5 \cb3 \uc0\u23646 \u24615 \u36820 \u22238 \'91childNodes\'92\u25968 \u32452 \u30340 \u31532 \u19968 \u20010 \u23376 \u33410 \u28857 \u12290 \u22914 \u26524 \u36873 \u23450 \u30340 \u33410 \u28857 \u27809 \u26377 \u23376 \u33410 \u28857 \u65292 \u21017 \u35813 \u23646 \u24615 \u36820 \u22238  NULL\u12290 \cb1 \
+\cb3 \uc0\u35821 \u27861 \u65306 \cb1 \
+\pard\pardeftab720\partightenfactor0
+
+\f2 \cf4 \cb6 node.firstChild\
+\pard\pardeftab720\partightenfactor0
+
+\f1 \cf5 \cb3 \uc0\u35828 \u26126 \u65306 \u19982 elementNode.childNodes[0]\u26159 \u21516 \u26679 \u30340 \u25928 \u26524 \u12290 \'a0\cb1 \
+\cb3 \uc0\u20108 \u12289 
+\f2 \cf5 \cb6  lastChild
+\f1 \cf5 \cb3  \uc0\u23646 \u24615 \u36820 \u22238 \'91childNodes\'92\u25968 \u32452 \u30340 \u26368 \u21518 \u19968 \u20010 \u23376 \u33410 \u28857 \u12290 \u22914 \u26524 \u36873 \u23450 \u30340 \u33410 \u28857 \u27809 \u26377 \u23376 \u33410 \u28857 \u65292 \u21017 \u35813 \u23646 \u24615 \u36820 \u22238  NULL\u12290 \cb1 \
+\cb3 \uc0\u35821 \u27861 \u65306 \cb1 \
+\pard\pardeftab720\partightenfactor0
+
+\f2 \cf4 \cb6 node.lastChild\
+\pard\pardeftab720\partightenfactor0
+
+\f1 \cf5 \cb3 \uc0\u35828 \u26126 \u65306 \u19982 elementNode.childNodes[elementNode.childNodes.length-1]\u26159 \u21516 \u26679 \u30340 \u25928 \u26524 \u12290 \'a0\cb1 \
+\cb3 \uc0\u27880 \u24847 :\'a0\u19978 \u19968 \u33410 \u20013 \u65292 \u25105 \u20204 \u30693 \u36947 Internet Explorer \u20250 \u24573 \u30053 \u33410 \u28857 \u20043 \u38388 \u29983 \u25104 \u30340 \u31354 \u30333 \u25991 \u26412 \u33410 \u28857 \u65292 \u32780 \u20854 \u23427 \u27983 \u35272 \u22120 \u19981 \u20250 \u12290 \u25105 \u20204 \u21487 \u20197 \u36890 \u36807 \u26816 \u27979 \u33410 \u28857 \u31867 \u22411 \u65292 \u36807 \u28388 \u23376 \u33410 \u28857 \u12290 \'a0(\u20197 \u21518 \u31456 \u33410 \u35762 \u35299 )\cb1 \
+\cb3 \'a0<div id="con"><p>javascript</p>\
+  <div>jQuery</div>\
+  <h5>PHP</h5></div> \
+<script type="text/javascript">\
+  var x=document.getElementById("con");\
+ document.write(x.firstChild.nodeName+" "+x.firstChild.nodeValue+" "+x.firstChild.nodeType+"<br/>");\
+ document.write(x.lastChild.nodeName+" "+x.firstChild.nodeValue+" "+x.firstChild.nodeType);\
+</script>\
+</body>\
+\pard\pardeftab720\partightenfactor0
+\cf2 10.\cb3 \uc0\u35775 \u38382 \u29238 \u33410 \u28857 parentNode\cf4 \
+\cf7 \cb3 \uc0\u33719 \u21462 \u25351 \u23450 \u33410 \u28857 \u30340 \u29238 \u33410 \u28857 \cb1 \
+\pard\pardeftab720\partightenfactor0
+\cf5 \cb3 \uc0\u35821 \u27861 \u65306 \cb1 \
+\pard\pardeftab720\partightenfactor0
+
+\f2 \cf4 \cb6 elementNode.parentNode\
+\pard\pardeftab720\partightenfactor0
+
+\f1 \cf5 \cb3 \uc0\u27880 \u24847 :\u29238 \u33410 \u28857 \u21482 \u33021 \u26377 \u19968 \u20010 \u12290 \cb1 \
+\cb3 \uc0\u30475 \u30475 \u19979 \u38754 \u30340 \u20363 \u23376 ,\u33719 \u21462  P \u33410 \u28857 \u30340 \u29238 \u33410 \u28857 \u65292 \u20195 \u30721 \u22914 \u19979 :\cb1 \
+\pard\pardeftab720\partightenfactor0
+
+\f2 \cf4 \cb6 <div id="text">\
+  <p id="con"> parentNode 
+\f3 \'bb\'f1\'c8\'a1\'d6\'b8\'b5\'e3\'bd\'da\'b5\'e3\'b5\'c4\'b8\'b8\'bd\'da\'b5\'e3
+\f2 </p>\
+</div> \
+<script type="text/javascript">\
+\'a0 var mynode= document.getElementById("con");\
+\'a0 document.write(mynode.parentNode.nodeName);\
+</script>\
+\pard\pardeftab720\partightenfactor0
+
+\f1 \cf5 \cb3 \uc0\u36816 \u34892 \u32467 \u26524 :\cb1 \
+\pard\pardeftab720\partightenfactor0
+
+\f2 \cf4 \cb6 parentNode 
+\f3 \'bb\'f1\'c8\'a1\'d6\'b8\'b5\'e3\'bd\'da\'b5\'e3\'b5\'c4\'b8\'b8\'bd\'da\'b5\'e3
+\f2 \
+DIV\
+\pard\pardeftab720\partightenfactor0
+
+\f1 \cf7 \cb3 \uc0\u35775 \u38382 \u31062 \u33410 \u28857 :\cb1 \
+\pard\pardeftab720\partightenfactor0
+
+\f2 \cf4 \cb6 elementNode.parentNode.parentNode\
+\pard\pardeftab720\partightenfactor0
+
+\f1 \cf5 \cb3 \uc0\u30475 \u30475 \u19979 \u38754 \u30340 \u20195 \u30721 :\cb1 \
+\pard\pardeftab720\partightenfactor0
+
+\f2 \cf4 \cb6 <div id="text"> \'a0\
+\'a0 <p>\
+\'a0 \'a0 parentNode \'a0 \'a0 \'a0\
+\'a0 \'a0 <span id="con"> 
+\f3 \'bb\'f1\'c8\'a1\'d6\'b8\'b5\'e3\'bd\'da\'b5\'e3\'b5\'c4\'b8\'b8\'bd\'da\'b5\'e3
+\f2 </span>\
+\'a0 </p>\
+</div>\'a0\
+<script type="text/javascript">\
+\'a0 var mynode= document.getElementById("con");\
+\'a0 document.write(mynode.parentNode.
+\f0\b \cf4 \cb6 parentNode.
+\b0 \cf4 \cb6 nodeName);\
+</script>
+\f2 \
+\pard\pardeftab720\partightenfactor0
+
+\f1 \cf5 \cb3 \uc0\u36816 \u34892 \u32467 \u26524 :\cb1 \
+\pard\pardeftab720\partightenfactor0
+
+\f2 \cf4 \cb6 parentNode
+\f3 \'bb\'f1\'c8\'a1\'d6\'b8\'b5\'e3\'bd\'da\'b5\'e3\'b5\'c4\'b8\'b8\'bd\'da\'b5\'e3
+\f2 \
+DIV\
+\pard\pardeftab720\partightenfactor0
+
+\f1 \cf5 \cb3 \uc0\u27880 \u24847 : \u27983 \u35272 \u22120 \u20860 \u23481 \u38382 \u39064 \u65292 chrome\u12289 firefox\u31561 \u27983 \u35272 \u22120 \u26631 \u31614 \u20043 \u38388 \u30340 \u31354 \u30333 \u20063 \u31639 \u26159 \u19968 \u20010 \u25991 \u26412 \u33410 \u28857 \u12290 \
+\
+\pard\pardeftab720\partightenfactor0
+\cf2 11.\cb3 \uc0\u35775 \u38382 \u20804 \u24351 \u33410 \u28857 (\u19981 \u26159 \u24456 \u29702 \u35299 )\
+\pard\pardeftab720\partightenfactor0
+\cf5 \cb3 1.\'a0nextSibling \uc0\u23646 \u24615 \u21487 \u36820 \u22238 \u26576 \u20010 \u33410 \u28857 \u20043 \u21518 \u32039 \u36319 \u30340 \u33410 \u28857 \u65288 \u22788 \u20110 \u21516 \u19968 \u26641 \u23618 \u32423 \u20013 \u65289 \u12290 \cb1 \
+\cb3 \uc0\u35821 \u27861 \u65306 \cb1 \
+\pard\pardeftab720\partightenfactor0
+
+\f2 \cf4 \cb6 nodeObject.nextSibling\
+\pard\pardeftab720\partightenfactor0
+
+\f1 \cf5 \cb3 \uc0\u35828 \u26126 \u65306 \u22914 \u26524 \u26080 \u27492 \u33410 \u28857 \u65292 \u21017 \u35813 \u23646 \u24615 \u36820 \u22238  null\u12290 \cb1 \
+\cb3 2. previousSibling \uc0\u23646 \u24615 \u21487 \u36820 \u22238 \u26576 \u20010 \u33410 \u28857 \u20043 \u21069 \u32039 \u36319 \u30340 \u33410 \u28857 \u65288 \u22788 \u20110 \u21516 \u19968 \u26641 \u23618 \u32423 \u20013 \u65289 \u12290 \cb1 \
+\cb3 \uc0\u35821 \u27861 \u65306 \cb1 \
+\pard\pardeftab720\partightenfactor0
+
+\f2 \cf4 \cb6 nodeObject.previousSibling  \
+\pard\pardeftab720\partightenfactor0
+
+\f1 \cf5 \cb3 \uc0\u35828 \u26126 \u65306 \u22914 \u26524 \u26080 \u27492 \u33410 \u28857 \u65292 \u21017 \u35813 \u23646 \u24615 \u36820 \u22238  null\u12290 \cb1 \
+\cb3 \uc0\u27880 \u24847 : \u20004 \u20010 \u23646 \u24615 \u33719 \u21462 \u30340 \u26159 \u33410 \u28857 \u12290 Internet Explorer \u20250 \u24573 \u30053 \u33410 \u28857 \u38388 \u29983 \u25104 \u30340 \u31354 \u30333 \u25991 \u26412 \u33410 \u28857 \u65288 \u20363 \u22914 \u65292 \u25442 \u34892 \u31526 \u21495 \u65289 \u65292 \u32780 \u20854 \u23427 \u27983 \u35272 \u22120 \u19981 \u20250 \u24573 \u30053 \u12290 \cb1 \
+\cb3 \uc0\u35299 \u20915 \u38382 \u39064 \u26041 \u27861 :\cb1 \
+\cb3 \uc0\u21028 \u26029 \u33410 \u28857 nodeType\u26159 \u21542 \u20026 1, \u22914 \u26159 \u20026 \u20803 \u32032 \u33410 \u28857 \u65292 \u36339 \u36807 \u12290 \cb1 \
+\pard\pardeftab720\partightenfactor0
+{\field{\*\fldinst{HYPERLINK "http://img.mukewang.com/5386e3c80001c25607010856.jpg"}}{\fldrslt \cf10 {{\NeXTGraphic 5386e3c80001c25607010856.jpg.png \width10515 \height12840 \noorient
+}¬}}}\pard\pardeftab720\partightenfactor0
+\cf5 \
+\cb3 \uc0\u36816 \u34892 \u32467 \u26524 :\cb1 \
+\pard\pardeftab720\partightenfactor0
+
+\f2 \cf4 \cb6 LI = javascript\
+nextsibling: LI = jquery\
+\
+\cf2 12.
+\f1 \cb3 \uc0\u25554 \u20837 \u33410 \u28857 appendChild()\cf4 \
+\pard\pardeftab720\partightenfactor0
+\cf5 \cb3 \uc0\u22312 \u25351 \u23450 \u33410 \u28857 \u30340 \u26368 \u21518 \u19968 \u20010 \u23376 \u33410 \u28857 \u21015 \u34920 \u20043 \u21518 \u28155 \u21152 \u19968 \u20010 \u26032 \u30340 \u23376 \u33410 \u28857 \u12290 \cb1 \
+\cb3 \uc0\u35821 \u27861 :\cb1 \
+\pard\pardeftab720\partightenfactor0
+
+\f2 \cf4 \cb6 appendChild(newnode)\
+\pard\pardeftab720\partightenfactor0
+
+\f1 \cf5 \cb3 \uc0\u21442 \u25968 :\cb1 \
+\cb3 newnode\uc0\u65306 \u25351 \u23450 \u36861 \u21152 \u30340 \u33410 \u28857 \u12290 \cb1 \
+\cb3 \uc0\u25105 \u20204 \u26469 \u30475 \u30475 \u65292 div\u26631 \u31614 \u20869 \u21019 \u24314 \u19968 \u20010 \u26032 \u30340  P \u26631 \u31614 \u65292 \u20195 \u30721 \u22914 \u19979 :\cb1 \
+\pard\pardeftab720\partightenfactor0
+{\field{\*\fldinst{HYPERLINK "http://img.mukewang.com/5398fd020001ad4905890193.jpg"}}{\fldrslt \cf10 {{\NeXTGraphic 5398fd020001ad4905890193.jpg.png \width8835 \height2895 \noorient
+}¬}}}\pard\pardeftab720\partightenfactor0
+\cf5 \
+\cb3 \uc0\u36816 \u34892 \u32467 \u26524 :\cb1 \
+\pard\pardeftab720\partightenfactor0
+
+\f2 \cf4 \cb6 HTML\
+\pard\pardeftab720\partightenfactor0
+
+\f0 \cf4 JavaScript\
+This is a new p\
+\
+\pard\pardeftab720\partightenfactor0
+
+\f3 \cf7 \'b4\'b4\'bd\'a8
+\f0  
+\f3 \'b8\'b3\'d6\'b5
+\f0   
+\f3 \'b2\'e5\'c8\'eb\
+</head>\
+<body>\
+<ul id="test">\
+  <li>JavaScript</li>\
+  <li>HTML</li>\
+</ul> \
+<script type="text/javascript">\
+\
+  var otest = document.getElementById("test");  \
+ var new = document.createElement("li"); \
+ new.innerHTML = "PHP";\
+   otest.appendChild(new);       \
+</script> \
+\
+</body>\
+</html>\
+\cf2 13.
+\f1 \cb3 \uc0\u25554 \u20837 \u33410 \u28857 insertBefore()\
+\pard\pardeftab720\partightenfactor0
+\cf5 \cb3 insertBefore() \uc0\u26041 \u27861 \u21487 \u22312 \u24050 \u26377 \u30340 \u23376 \u33410 \u28857 \u21069 \u25554 \u20837 \u19968 \u20010 \u26032 \u30340 \u23376 \u33410 \u28857 \u12290 \cb1 \
+\cb3 \uc0\u35821 \u27861 :\cb1 \
+\cb3 insertBefore(newnode,node);\cb1 \
+\cb3 \uc0\u21442 \u25968 :\cb1 \
+\cb3 newnode: \uc0\u35201 \u25554 \u20837 \u30340 \u26032 \u33410 \u28857 \u12290 \cb1 \
+\cb3 node: \uc0\u25351 \u23450 \u27492 \u33410 \u28857 \u21069 \u25554 \u20837 \u33410 \u28857 \u12290 \cb1 \
+\cb3 \uc0\u25105 \u20204 \u22312 \u26469 \u30475 \u30475 \u19979 \u38754 \u20195 \u30721 \u65292 \u22312 \u25351 \u23450 \u33410 \u28857 \u21069 \u25554 \u20837 \u33410 \u28857 \u12290 \cb1 \
+\pard\pardeftab720\partightenfactor0
+{\field{\*\fldinst{HYPERLINK "http://img.mukewang.com/5395318100010c6806960431.jpg"}}{\fldrslt \cf10 {{\NeXTGraphic 5395318100010c6806960431.jpg.png \width10440 \height6465 \noorient
+}¬}}}\pard\pardeftab720\partightenfactor0
+\cf5 \
+\cb3 \uc0\u36816 \u34892 \u32467 \u26524 :\cb1 \
+\pard\pardeftab720\partightenfactor0
+
+\f2 \cf4 \cb6 This is a new p\
+JavaScript\
+HTML\
+\pard\pardeftab720\partightenfactor0
+
+\f1 \cf5 \cb3 \uc0\u27880 \u24847 :\'a0otest.insertBefore(newnode,node); \u20063 \u21487 \u20197 \u25913 \u20026 :\'a0\'a0otest.insertBefore(newnode,otest.childNodes[0]);\'a0\
+\pard\pardeftab720\partightenfactor0
+\cf13 \uc0\u31034 \u20363 \u20195 \u30721  \u65292 \u22312 \u21478 \u19968 \u20010 \u20043 \u21069 \u25554 \u20837 \u20195 \u30721 \u65306 \cf5 \
+</head>\
+<body>\
+\
+<ul id="test"><li>JavaScript</li><li>HTML</li></ul> \
+ \
+<script type="text/javascript">\
+\
+  var otest = document.getElementById("test");  \
+var newnode = document.createElement("li");\
+newnode.innerHTML= "php";\
+\cf7 otest.insertBefore(newnode,otest.childNodes[1]);\
+\pard\pardeftab720\partightenfactor0
+\cf5  \
+</script> \
+\
+</body>\
+\pard\pardeftab720\partightenfactor0
+\cf2 14.\cb3 \uc0\u21024 \u38500 \u33410 \u28857 removeChild()\cb1 \
+\pard\pardeftab720\partightenfactor0
+\cf5 \cb3 removeChild() \uc0\u26041 \u27861 \u20174 \u23376 \u33410 \u28857 \u21015 \u34920 \u20013 \u21024 \u38500 \u26576 \u20010 \u33410 \u28857 \u12290 \u22914 \u21024 \u38500 \u25104 \u21151 \u65292 \u27492 \u26041 \u27861 \u21487 \u36820 \u22238 \u34987 \u21024 \u38500 \u30340 \u33410 \u28857 \u65292 \u22914 \u22833 \u36133 \u65292 \u21017 \u36820 \u22238  NULL\u12290 \cb1 \
+\cb3 \uc0\u35821 \u27861 :\cb1 \
+\pard\pardeftab720\partightenfactor0
+
+\f2 \cf4 \cb6 nodeObject.removeChild(node)\
+\pard\pardeftab720\partightenfactor0
+
+\f1 \cf5 \cb3 \uc0\u21442 \u25968 :\cb1 \
+\cb3 node \uc0\u65306 \u24517 \u38656 \u65292 \u25351 \u23450 \u38656 \u35201 \u21024 \u38500 \u30340 \u33410 \u28857 \u12290 \cb1 \
+\cb3 \uc0\u25105 \u20204 \u26469 \u30475 \u30475 \u19979 \u38754 \u20195 \u30721 \u65292 \u21024 \u38500 \u23376 \u28857 \u12290 \cb1 \
+\pard\pardeftab720\partightenfactor0
+{\field{\*\fldinst{HYPERLINK "http://img.mukewang.com/5399744d000153a306060342.jpg"}}{\fldrslt \cf10 {{\NeXTGraphic 5399744d000153a306060342.jpg.png \width9090 \height5130 \noorient
+}¬}}}\pard\pardeftab720\partightenfactor0
+\cf5 \
+\cb3 \uc0\u36816 \u34892 \u32467 \u26524 :\cb1 \
+\pard\pardeftab720\partightenfactor0
+
+\f2 \cf4 \cb6 HTML\
+
+\f3 \'c9\'be\'b3\'fd\'bd\'da\'b5\'e3\'b5\'c4\'c4\'da\'c8\'dd
+\f0 : javascript
+\f2 \
+\pard\pardeftab720\partightenfactor0
+
+\f1 \cf5 \cb3 \uc0\u27880 \u24847 :\'a0\u25226 \u21024 \u38500 \u30340 \u23376 \u33410 \u28857 \u36171 \u20540 \u32473  x\u65292 \u36825 \u20010 \u23376 \u33410 \u28857 \u19981 \u22312 DOM\u26641 \u20013 \u65292 \u20294 \u26159 \u36824 \u23384 \u22312 \u20869 \u23384 \u20013 \u65292 \u21487 \u36890 \u36807  x \u25805 \u20316 \u12290 \cb1 \
+\cb3 \uc0\u22914 \u26524 \u35201 \u23436 \u20840 \u21024 \u38500 \u23545 \u35937 \u65292 \u32473  x \u36171  null\'a0\u20540 \u65292 \u20195 \u30721 \u22914 \u19979 :\cb1 \
+\pard\pardeftab720\partightenfactor0
+{\field{\*\fldinst{HYPERLINK "http://img.mukewang.com/539975a800017c8e04790082.jpg"}}{\fldrslt \cf10 {{\NeXTGraphic 539975a800017c8e04790082.jpg.png \width7185 \height1230 \noorient
+}¬}}}\cf10 \
+\
+\uc0\u21024 \u38500 \u23376 \u33410 \u28857 \u20195 \u30721 \u65306 \u20808 \u33719 \u21462 \u65292 \u20877 \u36941 \u21382 \u65292 \u20877 \u21024 \u38500 \
+\cf14 </head>\
+<body>\
+<div id="content">\
+  <h1>html</h1>\
+  <h1>php</h1>\
+  <h1>javascript</h1>\
+  <h1>jquery</h1>\
+  <h1>java</h1>\
+</div>\
+\
+<script type="text/javascript">\
+function clearText() \{\
+  var content=document.getElementById("content");\
+for(var i=content.childNodes.length-1;i>=0;i--)\{\
+     var childNode = content.childNodes[i];\
+     content.removeChild(childNode);\
+  \}\
+\}\
+</script>\
+<button onclick="clearText()">\uc0\u28165 \u38500 \u33410 \u28857 \u20869 \u23481 </button>\
+</body>\
+</html>\
+\
+\cf2 15.\cb3 \uc0\u26367 \u25442 \u20803 \u32032 \u33410 \u28857 replaceChild()\cf4 \
+\pard\pardeftab720\partightenfactor0
+\cf5 \cb3 replaceChild \uc0\u23454 \u29616 \u23376 \u33410 \u28857 (\u23545 \u35937 )\u30340 \u26367 \u25442 \u12290 \u36820 \u22238 \u34987 \u26367 \u25442 \u23545 \u35937 \u30340 \u24341 \u29992 \u12290 \'a0\cb1 \
+\cb3 \uc0\u35821 \u27861 \u65306 \cb1 \
+\pard\pardeftab720\partightenfactor0
+
+\f2 \cf4 \cb6 node.replaceChild (newnode,oldnew ) \
+\pard\pardeftab720\partightenfactor0
+
+\f1 \cf5 \cb3 \uc0\u21442 \u25968 \u65306 \cb1 \
+\cb3 newnode : \uc0\u24517 \u38656 \u65292 \u29992 \u20110 \u26367 \u25442  oldnew \u30340 \u23545 \u35937 \u12290 \'a0\cb1 \
+\cb3 oldnew : \uc0\u24517 \u38656 \u65292 \u34987  newnode \u26367 \u25442 \u30340 \u23545 \u35937 \u12290 \cb1 \
+\cb3 \uc0\u25105 \u20204 \u26469 \u30475 \u30475 \u19979 \u38754 \u30340 \u20195 \u30721 :\cb1 \
+\pard\pardeftab720\partightenfactor0
+{\field{\*\fldinst{HYPERLINK "http://img.mukewang.com/539557d70001c3ee07190429.jpg"}}{\fldrslt \cf10 {{\NeXTGraphic 539557d70001c3ee07190429.jpg.png \width10785 \height6435 \noorient
+}¬}}}\pard\pardeftab720\partightenfactor0
+\cf5 \cb3 \'a0\cb1 \
+\cb3 \uc0\u25928 \u26524 : \u23558 \u25991 \u26723 \u20013 \u30340  Java \u25913 \u20026  JavaScript\u12290 \cb1 \
+\cb3 \uc0\u27880 \u24847 :\'a0\cb1 \
+\cb3 1.\'a0\uc0\u24403  oldnode \u34987 \u26367 \u25442 \u26102 \u65292 \u25152 \u26377 \u19982 \u20043 \u30456 \u20851 \u30340 \u23646 \u24615 \u20869 \u23481 \u37117 \u23558 \u34987 \u31227 \u38500 \u12290 \'a0\cb1 \
+\cb3 2. newnode \uc0\u24517 \u39035 \u20808 \u34987 \u24314 \u31435 \u12290 \'a0\cf14 \cb1 \
+\
+</head>\
+<body>\
+  <div><b id="oldnode">JavaScript</b>\uc0\u26159 \u19968 \u20010 \u24456 \u24120 \u29992 \u30340 \u25216 \u26415 \u65292 \u20026 \u32593 \u39029 \u28155 \u21152 \u21160 \u24577 \u25928 \u26524 \u12290 </div>\
+  <a href="javascript:replaceMessage()"> \uc0\u23558 \u21152 \u31895 \u25913 \u20026 \u26012 \u20307 </a>\
+  \
+    <script type="text/javascript">\
+      function replaceMessage()\{\
+                 var oldnode=document.getElementById("oldnode");\
+           var oldHTML= oldnode.innerHTML;           \
+           var newnode=document.createElement("i");         \
+           oldnode.parentNode.replaceChild(newnode,oldnode);\
+           newnode.innerHTML=oldHTML;		   \
+       \}    \
+  </script>\
+  \
+ </body>\
+</html>\
+\
+\pard\pardeftab720\partightenfactor0
+\cf2 16.\cb3 \uc0\u21019 \u24314 \u20803 \u32032 \u33410 \u28857 createElement\
+\pard\pardeftab720\partightenfactor0
+\cf5 \cb3 createElement()
+\f3 \cf5 \cb15 \'b7\'bd\'b7\'a8\'bf\'c9\'b4\'b4\'bd\'a8\'d4\'aa\'cb\'d8\'bd\'da\'b5\'e3\'a1\'a3\'b4\'cb\'b7\'bd\'b7\'a8\'bf\'c9\'b7\'b5\'bb\'d8\'d2\'bb\'b8\'f6
+\f4  Element 
+\f3 \'b6\'d4\'cf\'f3\'a1\'a3
+\f1 \cf5 \cb1 \
+\cb3 \uc0\u35821 \u27861 \u65306 \cb1 \
+\pard\pardeftab720\partightenfactor0
+
+\f2 \cf4 \cb6 document.createElement(tagName)\
+\pard\pardeftab720\partightenfactor0
+
+\f1 \cf5 \cb3 \uc0\u21442 \u25968 :\cb1 \
+\cb3 tagName\uc0\u65306 \u23383 \u31526 \u20018 \u20540 \u65292 \u36825 \u20010 \u23383 \u31526 \u20018 \u29992 \u26469 \u25351 \u26126 \u21019 \u24314 \u20803 \u32032 \u30340 \u31867 \u22411 \u12290 \cb1 \
+\cb3 \uc0\u27880 \u24847 \u65306 \u35201 \u19982 appendChild() \u25110  insertBefore()\u26041 \u27861 \u32852 \u21512 \u20351 \u29992 \u65292 \u23558 \u20803 \u32032 \u26174 \u31034 \u22312 \u39029 \u38754 \u20013 \u12290 \cb1 \
+\cb3 \uc0\u25105 \u20204 \u26469 \u21019 \u24314 \u19968 \u20010 \u25353 \u38062 \u65292 \u20195 \u30721 \u22914 \u19979 \u65306 \cb1 \
+\pard\pardeftab720\partightenfactor0
+
+\f2 \cf4 \cb6 <script type="text/javascript">\
+   var body = document.body; \
+   var input = document.createElement("input");  \
+   input.type = "button";  \
+   input.value = "
+\f3 \'b4\'b4\'bd\'a8\'d2\'bb\'b8\'f6\'b0\'b4\'c5\'a5
+\f2 ";  \
+   body.appendChild(input);  \
+ </script>  \
+\pard\pardeftab720\partightenfactor0
+
+\f1 \cf5 \cb3 \uc0\u25928 \u26524 \u65306 \u22312 HTML\u25991 \u26723 \u20013 \u65292 \u21019 \u24314 \u19968 \u20010 \u25353 \u38062 \u12290 \cb1 \
+\cb3 \uc0\u25105 \u20204 \u20063 \u21487 \u20197 \u20351 \u29992 setAttribute\u26469 \u35774 \u32622 \u23646 \u24615 \u65292 \u20195 \u30721 \u22914 \u19979 \u65306 \cb1 \
+\pard\pardeftab720\partightenfactor0
+
+\f2 \cf4 \cb6 <script type="text/javascript">  \
+   var body= document.body;             \
+   var btn = document.createElement("input");  \
+   btn.setAttribute("type", "text");  \
+   btn.setAttribute("name", "q");  \
+   btn.setAttribute("value", "
+\f3 \'ca\'b9\'d3\'c3
+\f2 setAttribute");  \
+   btn.setAttribute("onclick", "javascript:alert('This is a text!');");       \
+   body.appendChild(btn);  \
+</script>  \
+\pard\pardeftab720\partightenfactor0
+
+\f1 \cf5 \cb3 \uc0\u25928 \u26524 \u65306 \u22312 HTML\u25991 \u26723 \u20013 \u65292 \u21019 \u24314 \u19968 \u20010 \u25991 \u26412 \u26694 \u65292 \u20351 \u29992 setAttribute\u35774 \u32622 \u23646 \u24615 \u20540 \u12290  \u24403 \u28857 \u20987 \u36825 \u20010 \u25991 \u26412 \u26694 \u26102 \u65292 \u20250 \u24377 \u20986 \u23545 \u35805 \u26694 \'93This is a text!\'94\u12290 \
+\
+\pard\pardeftab720\partightenfactor0
+\cf2 17.\cb3 \uc0\u21019 \u24314 \u25991 \u26412 \u33410 \u28857 createTextNode\cf4 \
+\pard\pardeftab720\partightenfactor0
+\cf5 \cb3 createTextNode() \uc0\u26041 \u27861 \u21019 \u24314 \u26032 \u30340 \u25991 \u26412 \u33410 \u28857 \u65292 \u36820 \u22238 \u26032 \u21019 \u24314 \u30340  Text \u33410 \u28857 \u12290 \cb1 \
+\cb3 \uc0\u35821 \u27861 \u65306 \cb1 \
+\pard\pardeftab720\partightenfactor0
+
+\f2 \cf4 \cb6 document.createTextNode(data)\
+\pard\pardeftab720\partightenfactor0
+
+\f1 \cf5 \cb3 \uc0\u21442 \u25968 \u65306 \cb1 \
+\cb3 data :\'a0\uc0\u23383 \u31526 \u20018 \u20540 \u65292 \u21487 \u35268 \u23450 \u27492 \u33410 \u28857 \u30340 \u25991 \u26412 \u12290 \
+\
+\uc0\u31034 \u20363 \u20195 \u30721 \u65306 \cb1 \
+\cb3 <head>\
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">\
+<title>\uc0\u26080 \u26631 \u39064 \u25991 \u26723 </title>\
+<style type="text/css">\
+\
+.message\{    \
+	width:200px;\
+	height:100px;\
+	background-color:#CCC;\}\
+	\
+</style>\
+</head>\
+<body>\
+<script type="text/javascript">\
+  \cf7 var element = document.createElement("p");\
+   element.className = "message";\
+   var textNode = document.createTextNode("I love JavaScript!");\
+   element.appendChild(textNode);\
+   document.body.appendChild(element);\cf5 \
+</script> \
+\
+</body>\
+</html>\cb1 \
+\
+\cf2 18\uc0\u12289 \cb3 \uc0\u27983 \u35272 \u22120 \u31383 \u21475 \u21487 \u35270 \u21306 \u22495 \u22823 \u23567 \cf5 \cb1 \
+\cb3 \uc0\u33719 \u24471 \u27983 \u35272 \u22120 \u31383 \u21475 \u30340 \u23610 \u23544 \u65288 \u27983 \u35272 \u22120 \u30340 \u35270 \u21475 \u65292 \u19981 \u21253 \u25324 \u24037 \u20855 \u26639 \u21644 \u28378 \u21160 \u26465 \u65289 \u30340 \u26041 \u27861 :\cb1 \
+\cb3 \uc0\u19968 \u12289 \u23545 \u20110 IE9+\u12289 Chrome\u12289 Firefox\u12289 Opera \u20197 \u21450  Safari\u65306 \cb1 \
+\cb3 \'95\'a0 window.innerHeight - \uc0\u27983 \u35272 \u22120 \u31383 \u21475 \u30340 \u20869 \u37096 \u39640 \u24230 \cb1 \
+\cb3 \'95\'a0 window.innerWidth - \uc0\u27983 \u35272 \u22120 \u31383 \u21475 \u30340 \u20869 \u37096 \u23485 \u24230 \cb1 \
+\cb3 \uc0\u20108 \u12289 \u23545 \u20110  Internet Explorer 8\u12289 7\u12289 6\u12289 5\u65306 \cb1 \
+\cb3 \'95\'a0 document.documentElement.clientHeight\uc0\u34920 \u31034 HTML\u25991 \u26723 \u25152 \u22312 \u31383 \u21475 \u30340 \u24403 \u21069 \u39640 \u24230 \u12290 \cb1 \
+\cb3 \'95\'a0 document.documentElement.clientWidth\uc0\u34920 \u31034 HTML\u25991 \u26723 \u25152 \u22312 \u31383 \u21475 \u30340 \u24403 \u21069 \u23485 \u24230 \u12290 \cb1 \
+\cb3 \uc0\u25110 \u32773 \cb1 \
+\cb3 Document\uc0\u23545 \u35937 \u30340 body\u23646 \u24615 \u23545 \u24212 HTML\u25991 \u26723 \u30340 <body>\u26631 \u31614 \cb1 \
+\cb3 \'95\'a0 document.body.clientHeight\cb1 \
+\cb3 \'95\'a0 document.body.clientWidth\cb1 \
+\cb3 \uc0\u22312 \u19981 \u21516 \u27983 \u35272 \u22120 \u37117 \u23454 \u29992 \u30340  JavaScript \u26041 \u26696 \u65306 \cb1 \
+\pard\pardeftab720\partightenfactor0
+
+\f2 \cf4 \cb6 var w= document.documentElement.clientWidth\
+      || document.body.clientWidth;\
+var h= document.documentElement.clientHeight\
+      || document.body.clientHeight;\
+\
+\cf2 19.
+\f1 \cb3 \uc0\u32593 \u39029 \u23610 \u23544 scrollHeight\cf4 \
+\pard\pardeftab720\partightenfactor0
+\cf5 \cb3 scrollHeight\uc0\u21644 scrollWidth\u65292 \u33719 \u21462 \u32593 \u39029 \u20869 \u23481 \u39640 \u24230 \u21644 \u23485 \u24230 \u12290 \cb1 \
+\cb3 \uc0\u19968 \u12289 \u38024 \u23545 IE\u12289 Opera:\cb1 \
+\cb3 scrollHeight \uc0\u26159 \u32593 \u39029 \u20869 \u23481 \u23454 \u38469 \u39640 \u24230 \u65292 \u21487 \u20197 \u23567 \u20110  clientHeight\u12290 \cb1 \
+\cb3 \uc0\u20108 \u12289 \u38024 \u23545 NS\u12289 FF:\cb1 \
+\cb3 scrollHeight \uc0\u26159 \u32593 \u39029 \u20869 \u23481 \u39640 \u24230 \u65292 \u19981 \u36807 \u26368 \u23567 \u20540 \u26159  clientHeight\u12290 \u20063 \u23601 \u26159 \u35828 \u32593 \u39029 \u20869 \u23481 \u23454 \u38469 \u39640 \u24230 \u23567 \u20110  clientHeight \u26102 \u65292 scrollHeight \u36820 \u22238  clientHeight \u12290 \cb1 \
+\cb3 \uc0\u19977 \u12289 \u27983 \u35272 \u22120 \u20860 \u23481 \u24615 \cb1 \
+\pard\pardeftab720\partightenfactor0
+
+\f2 \cf4 \cb6 var w=document.documentElement.scrollWidth\
+   || document.body.scrollWidth;\
+var h=document.documentElement.scrollHeight\
+   || document.body.scrollHeight;\
+\pard\pardeftab720\partightenfactor0
+
+\f1 \cf5 \cb3 \uc0\u27880 \u24847 :\u21306 \u20998 \u22823 \u23567 \u20889 \cb1 \
+\cb3 scrollHeight\uc0\u21644 scrollWidth\u36824 \u21487 \u33719 \u21462 Dom\u20803 \u32032 \u20013 \u20869 \u23481 \u23454 \u38469 \u21344 \u29992 \u30340 \u39640 \u24230 \u21644 \u23485 \u24230 \u12290 \cf4 \cb3 \
+\pard\pardeftab720\partightenfactor0
+\cf7 \uc0\u20195 \u30721 \u65306 \cf4 \
+//\uc0\u27861 \u19968 \
+document.write("///******\uc0\u27861 \u19968 ******///"+"<br />");\
+document.write(document.body.scrollWidth+"<br  />");\
+document.write(document.body.scrollHeight);\
+\
+//\uc0\u27861 \u20108 \
+var w=document.documentElement.scrollWidth;\
+var h=document.documentElement.scrollHeight;\
+document.write("<br>"+"///******\uc0\u27861 \u20108 ******///"+"<br>"+"\u23485 \u20026 \u65306 "+w+"<br>"+"\u39640 \u20026 \u65306 "+h);\
+\
+\cf2 20.\uc0\u32593 \u39029 \u23610 \u23544 offsetHeight\cf4 \
+\pard\pardeftab720\partightenfactor0
+\cf5 \cb3 offsetHeight\uc0\u21644 offsetWidth\u65292 \u33719 \u21462 \u32593 \u39029 \u20869 \u23481 \u39640 \u24230 \u21644 \u23485 \u24230 (\u21253 \u25324 \u28378 \u21160 \u26465 \u31561 \u36793 \u32447 \u65292 \u20250 \u38543 \u31383 \u21475 \u30340 \u26174 \u31034 \u22823 \u23567 \u25913 \u21464 )\u12290 \cb1 \
+\cb3 \uc0\u19968 \u12289 \u20540 \cb1 \
+\cb3 offsetHeight = clientHeight + \uc0\u28378 \u21160 \u26465  + \u36793 \u26694 \u12290 \cb1 \
+\cb3 \uc0\u20108 \u12289 \u27983 \u35272 \u22120 \u20860 \u23481 \u24615 \cb1 \
+\pard\pardeftab720\partightenfactor0
+
+\f2 \cf4 \cb6 var w= document.documentElement.offsetWidth\
+    || document.body.offsetWidth;\
+var h= document.documentElement.offsetHeight\
+    || document.body.offsetHeight;\
+
+\f3 \cf8 \'b4\'fa\'c2\'eb\'be\'d9\'c0\'fd\'a3\'ba
+\f2 \cf4 \
+<script type="text/javascript">\
+var w= document.documentElement.offsetWidth;\
+var h= document.documentElement.offsetHeight;\
+//
+\f3 \'b7\'a8\'d2\'bb
+\f2     \
+    document.write("
+\f3 \'b7\'bd\'b7\'a8\'d2\'bb
+\f2 "+"<br/>"+"
+\f3 \'cd\'f8\'d2\'b3\'c4\'da\'c8\'dd\'b5\'c4\'bf\'ed\'b6\'c8\'ce\'aa\'a3\'ba
+\f2 "+w+"<br  />"+"
+\f3 \'cd\'f8\'d2\'b3\'c4\'da\'c8\'dd\'b5\'c4\'b8\'df\'b6\'c8\'ce\'aa\'a3\'ba
+\f2 "+h);\
+</script>\
+\
+21.
+\f1 \cf4 \cb3 \uc0\u32593 \u39029 \u21367 \u21435 \u30340 \u36317 \u31163 \u19982 \u20559 \u31227 \u37327 \
+\pard\pardeftab720\partightenfactor0
+\cf5 \cb3 \uc0\u25105 \u20204 \u20808 \u26469 \u30475 \u30475 \u19979 \u38754 \u30340 \u22270 \u65306 \cb1 \
+\pard\pardeftab720\partightenfactor0
+{\field{\*\fldinst{HYPERLINK "http://img.mukewang.com/5347b2b10001e1a307520686.jpg"}}{\fldrslt \cf10 {{\NeXTGraphic 5347b2b10001e1a307520686.jpg.png \width15040 \height13720 \noorient
+}¬}}}\pard\pardeftab720\partightenfactor0
+\cf5 \
+\cb3 scrollLeft:\uc0\u35774 \u32622 \u25110 \u33719 \u21462 \u20301 \u20110 \u32473 \u23450 \u23545 \u35937 \u24038 \u36793 \u30028 \u19982 \u31383 \u21475 \u20013 \u30446 \u21069 \u21487 \u35265 \u20869 \u23481 \u30340 \u26368 \u24038 \u31471 \u20043 \u38388 \u30340 \u36317 \u31163 \'a0\u65292 \u21363 \u24038 \u36793 \u28784 \u33394 \u30340 \u20869 \u23481 \u12290 \cb1 \
+\cb3 scrollTop:\uc0\u35774 \u32622 \u25110 \u33719 \u21462 \u20301 \u20110 \u23545 \u35937 \u26368 \u39030 \u31471 \u19982 \u31383 \u21475 \u20013 \u21487 \u35265 \u20869 \u23481 \u30340 \u26368 \u39030 \u31471 \u20043 \u38388 \u30340 \u36317 \u31163 \'a0\u65292 \u21363 \u19978 \u36793 \u28784 \u33394 \u30340 \u20869 \u23481 \u12290 \cb1 \
+\cb3 offsetLeft:\uc0\u33719 \u21462 \u25351 \u23450 \u23545 \u35937 \u30456 \u23545 \u20110 \u29256 \u38754 \u25110 \u30001 \'a0offsetParent\'a0\u23646 \u24615 \u25351 \u23450 \u30340 \u29238 \u22352 \u26631 \u30340 \u35745 \u31639 \u24038 \u20391 \u20301 \u32622 \'a0\u12290 \cb1 \
+\cb3 offsetTop:\uc0\u33719 \u21462 \u25351 \u23450 \u23545 \u35937 \u30456 \u23545 \u20110 \u29256 \u38754 \u25110 \u30001 \'a0offsetParent\'a0\u23646 \u24615 \u25351 \u23450 \u30340 \u29238 \u22352 \u26631 \u30340 \u35745 \u31639 \u39030 \u31471 \u20301 \u32622  \u12290 \cb1 \
+\cb3 \uc0\u27880 \u24847 :\cb1 \
+\cb3 1. \uc0\u21306 \u20998 \u22823 \u23567 \u20889 \cb1 \
+\cb3 2.\'a0offsetParent\uc0\u65306 \u24067 \u23616 \u20013 \u35774 \u32622 postion\u23646 \u24615 (Relative\u12289 Absolute\u12289 fixed)\u30340 \u29238 \u23481 \u22120 \u65292 \u20174 \u26368 \u36817 \u30340 \u29238 \u33410 \u28857 \u24320 \u22987 \u65292 \u19968 \u23618 \u23618 \u21521 \u19978 \u25214 \u65292 \u30452 \u21040 HTML\u30340 body\u12290 \
+\
+\
+}
