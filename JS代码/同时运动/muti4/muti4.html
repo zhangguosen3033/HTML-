@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>同时运动</title>
+<style>
+    li{
+    	width:150px;
+    	height:150px;
+    	background:#8e2;
+    	border:5px solid red;
+    	opacity:0.5;
+    	filter:alpha(opacity:50);	
+    }
+    ul,li{
+    	list-style:none;
+    }
+</style>
+<script src='../move1/move1.js'>
+</script>
+<script>
+window.onload=function(){
+	var aLi=document.getElementById('li');
+	aLi.onmouseover=function(){
+		move(aLi,{width:155,height:300},function(){
+            move(aLi,{opacity:90});
+        });
+	}
+    aLi.onmouseout=function(){
+        move(aLi,{height:150,width:150},function(){
+            move(aLi,{opacity:50});
+        });
+    }
+}
+</script>
+</head>
+<body>
+	<ul>
+		<li id="li"></li>
+	</ul>
+</body>
+</html>

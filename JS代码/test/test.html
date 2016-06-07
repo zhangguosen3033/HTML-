@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		* {
+			margin: 0;
+			padding: 0;
+		}
+		#move {
+			width: 291px;
+			height: 170px;
+			margin: 10px auto;
+			border: 1px solid #ccc;
+		}
+		#move a {
+			display: inline-block;
+			width: 58px;
+			height: 55px;
+			border: 1px solid #ddd;
+			border-radius: 3px;
+			background-color: #fff;
+			text-align: center;
+			margin: 10px 17px;
+			position: relative;
+			color: #9c9c9c;
+			font-size: 12px;
+			text-decoration: none;
+			line-height: 25px;
+			overflow: hidden;
+			opacity: 1;
+			filter: Alpha(opacity=100);
+		}
+		#move a i {
+			position: absolute;
+			top: 20px;
+			left: 0;
+			display: inline-block;
+			width: 100%;
+			text-align: center;
+		}
+		#move img {
+			padding: 3px 0;
+			border: none;
+			z-index:-1
+		}
+		#move a:hover {
+			color: #f00;
+		}
+	</style>
+	<script type="text/javascript" src="js/jquery-1.12.2.min.js"></script>
+	<script type="text/javascript">
+		$(function(){
+			$("#move a").mouseenter(function(){
+				$(this).find("i").animate({top:"-25px", opacity:"0"},300,function() {
+						$(this).css({top:"30px"});
+						$(this).animate({top:"20px", opacity:"1"},200);
+				});
+			});
+		});
+	</script>
+</head>
+<body>
+	<div id="move">
+		<a href="#">
+			<i><img src="images/food.png"></i>
+			<p>食物</p>
+		</a>
+		<a href="#">
+			<i><img src="images/game.png"></i>
+			<p>游戏</p>
+		</a>
+		<a href="#">
+			<i><img src="images/insurance.png"></i>
+			<p>保险</p>
+		</a>
+		<a href="#">
+			<i><img src="images/lottery.png"></i>
+			<p>彩票</p>
+		</a>
+		<a href="#">
+			<i><img src="images/movie.png"></i>
+			<p>电影</p>
+		</a>
+		<a href="#">				
+			<i><img src="images/travel.png"></i>
+			<p>旅游</p>
+		</a>		
+	</div>
+</body>
+</html>
