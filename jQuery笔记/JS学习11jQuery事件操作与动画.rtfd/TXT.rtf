@@ -1,0 +1,713 @@
+{\rtf1\ansi\ansicpg936\cocoartf1404\cocoasubrtf470
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fnil\fcharset0 MicrosoftYaHei;\f2\fnil\fcharset0 Monaco;
+\f3\fnil\fcharset134 PingFangSC-Regular;}
+{\colortbl;\red255\green255\blue255;\red255\green39\blue18;\red233\green238\blue239;\red16\green19\blue23;
+\red24\green27\blue29;\red234\green234\blue234;\red16\green109\blue180;\red0\green61\blue204;\red217\green11\blue0;
+\red0\green68\blue254;\red255\green0\blue0;\red0\green0\blue255;\red198\green205\blue208;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs36 \cf2 1.
+\f1 \cb3 \expnd0\expndtw0\kerning0
+\uc0\u39029 \u38754 \u21152 \u36733 \u26102 \u35302 \u21457 ready()\u20107 \u20214 \cf4 \
+\pard\pardeftab720\partightenfactor0
+
+\f2 \cf5 \cb6 ready()
+\f1 \cb3 \uc0\u20107 \u20214 \u31867 \u20284 \u20110 
+\f2 \cb6 onLoad()
+\f1 \cb3 \uc0\u20107 \u20214 \u65292 \u20294 \u21069 \u32773 \u21482 \u35201 \u39029 \u38754 \u30340 DOM\u32467 \u26500 \u21152 \u36733 \u21518 \u20415 \u35302 \u21457 \u65292 \u32780 \u21518 \u32773 \u24517 \u39035 \u22312 \u39029 \u38754 \u20840 \u37096 \u20803 \u32032 \u21152 \u36733 \u25104 \u21151 \u25165 \u35302 \u21457 \u65292 
+\f2 \cb6 ready()
+\f1 \cb3 \uc0\u21487 \u20197 \u20889 \u22810 \u20010 \u65292 \u25353 \u39034 \u24207 \u25191 \u34892 \u12290 \u27492 \u22806 \u65292 \u19979 \u21015 \u20889 \u27861 \u26159 \u30456 \u31561 \u30340 \u65306 \cb1 \
+
+\f2 \cb6 $(document).ready(function()\{\})
+\f1 \cb3 \uc0\u31561 \u20215 \u20110 
+\f2 \cb6 $(function()\{\});
+\f1 \cb1 \
+\cb3 \uc0\u20363 \u22914 \u65292 \u24403 \u35302 \u21457 \u39029 \u38754 \u30340 
+\f2 \cb6 ready()
+\f1 \cb3 \uc0\u20107 \u20214 \u26102 \u65292 \u22312 <div>\u20803 \u32032 \u20013 \u26174 \u31034 \u19968 \u21477 \u35805 \u12290 \u22914 \u19979 \u22270 \u25152 \u31034 \u65306 \cb1 \
+\pard\pardeftab720\partightenfactor0
+{\field{\*\fldinst{HYPERLINK "http://img.mukewang.com/52d227fa000171db03160136.jpg"}}{\fldrslt \cf7 {{\NeXTGraphic 52d227fa000171db03160136.jpg \width4740 \height2040 \noorient
+}¬}}}\pard\pardeftab720\partightenfactor0
+\cf5 \
+\cb3 \uc0\u22312 \u27983 \u35272 \u22120 \u20013 \u26174 \u31034 \u30340 \u25928 \u26524 \u65306 \cb1 \
+\pard\pardeftab720\partightenfactor0
+{\field{\*\fldinst{HYPERLINK "http://img.mukewang.com/52d2281c00017ada04670222.jpg"}}{\fldrslt \cf7 {{\NeXTGraphic 52d2281c00017ada04670222.jpg \width7005 \height3330 \noorient
+}¬}}}\pard\pardeftab720\partightenfactor0
+\cf5 \
+\cb3 \uc0\u20174 \u22270 \u20013 \u21487 \u20197 \u30475 \u20986 \u65292 \u24403 \u39029 \u38754 \u30340 DOM\u26694 \u26550 \u23436 \u25104 \u21152 \u36733 \u21518 \u65292 \u20415 \u35302 \u21457 
+\f2 \cb6 ready()
+\f1 \cb3 \uc0\u20107 \u20214 \u65292 \u22312 \u35813 \u20107 \u20214 \u20013 \u65292 \u36890 \u36807 id\u21495 \u20026 \'93tip\'94\u30340 \u20803 \u32032 \u65292 \u35843 \u29992 
+\f2 \cb6 html()
+\f1 \cb3 \uc0\u26041 \u27861 \u22312 \u39029 \u38754 \u20013 \u26174 \u31034 \u19968 \u27573 \u23383 \u31526 \u12290 \
+   </head>\
+    <body>\
+        <h3>\uc0\u39029 \u38754 \u36733 \u20837 \u26102 \u35302 \u21457 ready()\u20107 \u20214 </h3>\
+        <div id="tip"></div>\
+        <input id="btntest" type="button" value="\uc0\u28857 \u19979 \u25105 " />\
+        <script type="text/javascript">\
+      \cf8    $(document).ready(function()\{\cf5 \
+                $("#btntest").bind("click", function () \{\
+                    $("#tip").html("\uc0\u25105 \u34987 \u28857 \u20987 \u20102 \u65281 ");\
+                \});\
+            \});\
+        </script>\
+    </body>\
+</html>\
+\cf2 2.\cb3 \uc0\u20351 \u29992 bind()\u26041 \u27861 \u32465 \u23450 \u20803 \u32032 \u30340 \u20107 \u20214 \cf4 \
+
+\f2 \cf5 \cb6 bind()
+\f1 \cb3 \uc0\u26041 \u27861 \u32465 \u23450 \u20803 \u32032 \u30340 \u20107 \u20214 \u38750 \u24120 \u26041 \u20415 \u65292 \u32465 \u23450 \u21069 \u65292 \u38656 \u35201 \u30693 \u36947 \u34987 \u32465 \u23450 \u30340 \u20803 \u32032 \u21517 \u65292 \u32465 \u23450 \u30340 \u20107 \u20214 \u21517 \u31216 \u65292 \u20107 \u20214 \u20013 \u25191 \u34892 \u30340 \u20989 \u25968 \u20869 \u23481 \u23601 \u21487 \u20197 \u65292 \u23427 \u30340 \u32465 \u23450 \u26684 \u24335 \u22914 \u19979 \u65306 \cb1 \
+
+\f2 \cb6 $(selector).bind(event,[data] function)
+\f1 \cb1 \
+\cb3 \uc0\u21442 \u25968 event\u20026 \u20107 \u20214 \u21517 \u31216 \u65292 \u22810 \u20010 \u20107 \u20214 \u21517 \u31216 \u29992 \u31354 \u26684 \u38548 \u24320 \u65292 function\u20026 \u20107 \u20214 \u25191 \u34892 \u30340 \u20989 \u25968 \u12290 \cb1 \
+\cb3 \uc0\u20363 \u22914 \u65292 \u32465 \u23450 \u25353 \u38062 \u30340 \u21333 \u20987 \u20107 \u20214 \u65292 \u21333 \u20987 \u25353 \u38062 \u26102 \u65292 \u35813 \u25353 \u38062 \u21464 \u20026 \u19981 \u21487 \u29992 \u12290 \u22914 \u19979 \u22270 \u25152 \u31034 \u65306 \cb1 \
+\pard\pardeftab720\partightenfactor0
+{\field{\*\fldinst{HYPERLINK "http://img.mukewang.com/52d22aeb0001ee2b04480177.jpg"}}{\fldrslt \cf7 {{\NeXTGraphic 52d22aeb0001ee2b04480177.jpg \width6720 \height2655 \noorient
+}¬}}}\pard\pardeftab720\partightenfactor0
+\cf5 \
+\cb3 \uc0\u22312 \u27983 \u35272 \u22120 \u20013 \u26174 \u31034 \u30340 \u25928 \u26524 \u65306 \cb1 \
+\pard\pardeftab720\partightenfactor0
+{\field{\*\fldinst{HYPERLINK "http://img.mukewang.com/52d22b0d0001f03204790244.jpg"}}{\fldrslt \cf7 {{\NeXTGraphic 52d22b0d0001f03204790244.jpg \width7185 \height3660 \noorient
+}¬}}}\pard\pardeftab720\partightenfactor0
+\cf5 \
+\cb3 \uc0\u21487 \u20197 \u30475 \u20986 \u65292 \u30001 \u20110 \u20351 \u29992 
+\f2 \cb6 bind()
+\f1 \cb3 \uc0\u26041 \u27861 \u65292 \u32465 \u23450 \u20102 \u25353 \u38062 \u30340 \u21333 \u20987 \u20107 \u20214 \u65292 \u22312 \u35813 \u20107 \u20214 \u20013 \u23558 \u25353 \u38062 \u26412 \u36523 \u30340 \'93disabled\'94\u23646 \u24615 \u20540 \u35774 \u20026 \'93true\'94\u65292 \u34920 \u31034 \u19981 \u21487 \u29992 \u65292 \u24403 \u28857 \u20987 \u26102 \u35302 \u35813 \u20107 \u20214 \u12290 \
+\
+\cf2 3.\cb3 \uc0\u20351 \u29992 hover()\u26041 \u27861 \u20999 \u25442 \u20107 \u20214 \cf4 \
+
+\f2 \cf5 \cb6 hover()
+\f1 \cb3 \uc0\u26041 \u27861 \u30340 \u21151 \u33021 \u26159 \u24403 \u40736 \u26631 \u31227 \u21040 \u25152 \u36873 \u20803 \u32032 \u19978 \u26102 \u65292 \u25191 \u34892 \u26041 \u27861 \u20013 \u30340 \u31532 \u19968 \u20010 \u20989 \u25968 \u65292 \u40736 \u26631 \u31227 \u20986 \u26102 \u65292 \u25191 \u34892 \u26041 \u27861 \u20013 \u30340 \u31532 \u20108 \u20010 \u20989 \u25968 \u65292 \u23454 \u29616 \u20107 \u20214 \u30340 \u20999 \u23454 \u25928 \u26524 \u65292 \u35843 \u29992 \u26684 \u24335 \u22914 \u19979 \u65306 \cb1 \
+
+\f2 \cb6 $(selector).hover(over
+\f3 \'a3\'ac
+\f2 out);
+\f1 \cb1 \
+\cb3 over\uc0\u21442 \u25968 \u20026 \u31227 \u21040 \u25152 \u36873 \u20803 \u32032 \u19978 \u35302 \u21457 \u30340 \u20989 \u25968 \u65292 out\u21442 \u25968 \u20026 \u31227 \u20986 \u20803 \u32032 \u26102 \u35302 \u21457 \u30340 \u20989 \u25968 \u12290 \cb1 \
+\cb3 \uc0\u20363 \u22914 \u65292 \u24403 \u40736 \u26631 \u31227 \u21040 <div>\u20803 \u32032 \u19978 \u26102 \u65292 \u20803 \u32032 \u20013 \u30340 \u23383 \u20307 \u21464 \u25104 \u37329 \u40644 \u33394 \u65292 \u22914 \u19979 \u22270 \u25152 \u31034 \u65306 \cb1 \
+\pard\pardeftab720\partightenfactor0
+{\field{\*\fldinst{HYPERLINK "http://img.mukewang.com/52d22c9900013dbd03190241.jpg"}}{\fldrslt \cf7 {{\NeXTGraphic 52d22c9900013dbd03190241.jpg \width4785 \height3615 \noorient
+}¬}}}\pard\pardeftab720\partightenfactor0
+\cf5 \
+\cb3 \uc0\u22312 \u27983 \u35272 \u22120 \u20013 \u26174 \u31034 \u30340 \u25928 \u26524 \u65306 \cb1 \
+\pard\pardeftab720\partightenfactor0
+{\field{\*\fldinst{HYPERLINK "http://img.mukewang.com/52d22cba0001163f04670262.jpg"}}{\fldrslt \cf7 {{\NeXTGraphic 52d22cba0001163f04670262.jpg \width7005 \height3930 \noorient
+}¬}}}\pard\pardeftab720\partightenfactor0
+\cf5 \
+\cb3 \uc0\u20174 \u22270 \u20013 \u21487 \u20197 \u30475 \u20986 \u65292 \u20351 \u29992 
+\f2 \cb6 hover()
+\f1 \cb3 \uc0\u26041 \u27861 \u25191 \u34892 \u20004 \u20010 \u20989 \u25968 \u65292 \u24403 \u40736 \u26631 \u31227 \u22312 \u20803 \u32032 \u19978 \u26102 \u35843 \u29992 
+\f2 \cb6 addClass()
+\f1 \cb3 \uc0\u26041 \u27861 \u22686 \u21152 \u19968 \u20010 \u26679 \u24335 \u65292 \u31227 \u20986 \u26102 \u65292 \u35843 \u29992 
+\f2 \cb6 removeClass()
+\f1 \cb3 \uc0\u26041 \u27861 \u31227 \u38500 \u35813 \u26679 \u24335 \u12290 \
+\
+\cf9 4.\cb3 \uc0\u20351 \u29992 toggle()\u26041 \u27861 \u32465 \u23450 \u22810 \u20010 \u20989 \u25968 \cf4 \
+
+\f2 \cf5 \cb6 toggle()
+\f1 \cb3 \uc0\u26041 \u27861 \u21487 \u20197 \u22312 \u20803 \u32032 \u30340 click\u20107 \u20214 \u20013 \u32465 \u23450 \u20004 \u20010 \u25110 \u20004 \u20010 \u20197 \u19978 \u30340 \u20989 \u25968 \u65292 \cf10 \uc0\u21516 \u26102 \u65292 \u23427 \u36824 \u21487 \u20197 \u23454 \u29616 \u20803 \u32032 \u30340 \u38544 \u34255 \u19982 \u26174 \u31034 \u30340 \u20999 \u25442 \cf5 \uc0\u65292 \u32465 \u23450 \u22810 \u20010 \u20989 \u25968 \u30340 \u35843 \u29992 \u26684 \u24335 \u22914 \u19979 \u65306 \cb1 \
+
+\f2 \cb6 $(selector).toggle(fun1(),fun2(),funN(),...)
+\f1 \cb1 \
+\cb3 \uc0\u20854 \u20013 \u65292 fun1\u65292 fun2\u23601 \u26159 \u22810 \u20010 \u20989 \u25968 \u30340 \u21517 \u31216 \cb1 \
+\cb3 \uc0\u20363 \u22914 \u65292 \u20351 \u29992 
+\f2 \cb6 toggle()
+\f1 \cb3 \uc0\u26041 \u27861 \u65292 \u24403 \u27599 \u27425 \u28857 \u20987 <div>\u20803 \u32032 \u26102 \u65292 \u26174 \u31034 \u19981 \u21516 \u20869 \u23481 \u65292 \u22914 \u19979 \u22270 \u25152 \u31034 \u65306 \cb1 \
+\pard\pardeftab720\partightenfactor0
+{\field{\*\fldinst{HYPERLINK "http://img.mukewang.com/52d22e3a0001c56d02980289.jpg"}}{\fldrslt \cf7 {{\NeXTGraphic 52d22e3a0001c56d02980289.jpg \width4470 \height4335 \noorient
+}¬}}}\pard\pardeftab720\partightenfactor0
+\cf5 \
+\cb3 \uc0\u22312 \u27983 \u35272 \u22120 \u20013 \u26174 \u31034 \u30340 \u25928 \u26524 \u65306 \cb1 \
+\pard\pardeftab720\partightenfactor0
+{\field{\*\fldinst{HYPERLINK "http://img.mukewang.com/52d22e570001902a04670335.jpg"}}{\fldrslt \cf7 {{\NeXTGraphic 52d22e570001902a04670335.jpg \width7005 \height5025 \noorient
+}¬}}}\pard\pardeftab720\partightenfactor0
+\cf5 \
+\cb3 \uc0\u20174 \u22270 \u20013 \u21487 \u20197 \u30475 \u20986 \u65292 \u27599 \u27425 \u28857 \u20987 <div>\u20803 \u32032 \u26102 \u65292 \u37117 \u20381 \u27425 \u25191 \u34892 
+\f2 \cb6 toggle()
+\f1 \cb3 \uc0\u26041 \u27861 \u32465 \u23450 \u30340 \u20989 \u25968 \u65292 \u24403 \u25191 \u34892 \u21040 \u26368 \u21518 \u19968 \u20010 \u20989 \u25968 \u26102 \u65292 \u20877 \u27425 \u28857 \u20987 \u23558 \u21448 \u36820 \u22238 \u25191 \u34892 \u31532 \u19968 \u20010 \u20989 \u25968 \u12290 \cb1 \
+\cb3 \uc0\u27880 \u24847 \u65306 toggle()\u26041 \u27861 \u25903 \u25345 \u30446 \u21069 \u20027 \u27969 \u31283 \u23450 \u30340 jQuery\u29256 \u26412 1.8.2\u65292 \u22312 1.9.0\u20043 \u21518 \u30340 \u29256 \u26412 \u26159 \u19981 \u25903 \u25345 \u30340 \u12290 \
+\
+\cf2 5.\cb3 \uc0\u20351 \u29992 unbind()\u26041 \u27861 \u31227 \u38500 \u20803 \u32032 \u32465 \u23450 \u30340 \u20107 \u20214 \cf4 \
+
+\f2 \cf5 \cb6 unbind()
+\f1 \cb3 \uc0\u26041 \u27861 \u21487 \u20197 \u31227 \u38500 \u20803 \u32032 \u24050 \u32465 \u23450 \u30340 \u20107 \u20214 \u65292 \u23427 \u30340 \u35843 \u29992 \u26684 \u24335 \u22914 \u19979 \u65306 \cb1 \
+
+\f2 \cb6 $(selector).unbind(event,fun)
+\f1 \cb1 \
+\cb3 \uc0\u20854 \u20013 \u21442 \u25968 event\u34920 \u31034 \u38656 \u35201 \u31227 \u38500 \u30340 \u20107 \u20214 \u21517 \u31216 \u65292 \u22810 \u20010 \u20107 \u20214 \u21517 \u29992 \u31354 \u26684 \u38548 \u24320 \u65292 fun\u21442 \u25968 \u20026 \u20107 \u20214 \u25191 \u34892 \u26102 \u35843 \u29992 \u30340 \u20989 \u25968 \u21517 \u31216 \u12290 \cb1 \
+\cb3 \uc0\u20363 \u22914 \u65292 \u28857 \u20987 \u25353 \u38062 \u26102 \u65292 \u20351 \u29992 
+\f2 \cb6 unbind()
+\f1 \cb3 \uc0\u26041 \u27861 \u31227 \u38500 <div>\u20803 \u32032 \u20013 \u24050 \u32465 \u23450 \u30340 \'93dblclick\'94\u20107 \u20214 \u65292 \u22914 \u19979 \u22270 \u25152 \u31034 \u65306 \cb1 \
+\pard\pardeftab720\partightenfactor0
+{\field{\*\fldinst{HYPERLINK "http://img.mukewang.com/52d22feb0001c9ee04750306.jpg"}}{\fldrslt \cf7 {{\NeXTGraphic 52d22feb0001c9ee04750306.jpg \width7125 \height4590 \noorient
+}¬}}}\pard\pardeftab720\partightenfactor0
+\cf5 \
+\cb3 \uc0\u22312 \u27983 \u35272 \u22120 \u20013 \u26174 \u31034 \u30340 \u25928 \u26524 \u65306 \cb1 \
+\pard\pardeftab720\partightenfactor0
+{\field{\*\fldinst{HYPERLINK "http://img.mukewang.com/52d2300c0001ecfe06650362.jpg"}}{\fldrslt \cf7 {{\NeXTGraphic 52d2300c0001ecfe06650362.jpg \width9975 \height5430 \noorient
+}¬}}}\pard\pardeftab720\partightenfactor0
+\cf5 \
+\cb3 \uc0\u20174 \u22270 \u20013 \u21487 \u20197 \u30475 \u20986 \u65292 \u24403 \u20351 \u29992 
+\f2 \cb6 unbind()
+\f1 \cb3 \uc0\u26041 \u27861 \u31227 \u38500 \u24050 \u32465 \u23450 \u30340 \'93dblclick\'94\u20107 \u20214 \u26102 \u65292 \u20877 \u27425 \u21452 \u20987 <div>\u20803 \u32032 \u65292 \u26679 \u24335 \u21644 \u25991 \u23383 \u37117 \u27809 \u26377 \u20219 \u20309 \u21464 \u21270 \u65292 \u34920 \u26126 \u31227 \u38500 \u20107 \u20214 \u25104 \u21151 \u12290 \cb1 \
+\cb3 \uc0\u22914 \u26524 \u27809 \u26377 \u35268 \u23450 \u21442 \u25968 \u65292 unbind() \u26041 \u27861 \u20250 \u21024 \u38500 \u25351 \u23450 \u20803 \u32032 \u30340 \u25152 \u26377 \u20107 \u20214 \u22788 \u29702 \u31243 \u24207 \u12290 \
+\
+\cf9 6.\cb3 \uc0\u20351 \u29992 one()\u26041 \u27861 \u32465 \u23450 \u20803 \u32032 \u30340 \u19968 \u27425 \u24615 \u20107 \u20214 \cf4 \
+
+\f2 \cf5 \cb6 one()
+\f1 \cb3 \uc0\u26041 \u27861 \u21487 \u20197 \u32465 \u23450 \u20803 \u32032 \u20219 \u20309 \u26377 \u25928 \u30340 \u20107 \u20214 \u65292 \u20294 \u36825 \u31181 \u26041 \u27861 \u32465 \u23450 \u30340 \u20107 \u20214 \u21482 \u20250 \u35302 \u21457 \u19968 \u27425 \u65292 \u23427 \u30340 \u35843 \u29992 \u26684 \u24335 \u22914 \u19979 \u65306 \cb1 \
+
+\f2 \cb6 $(selector).one(event,[data],fun)
+\f1 \cb1 \
+\cb3 \uc0\u21442 \u25968 event\u20026 \u20107 \u20214 \u21517 \u31216 \u65292 data\u20026 \u35302 \u21457 \u20107 \u20214 \u26102 \u25658 \u24102 \u30340 \u25968 \u25454 \u65292 fun\u20026 \u35302 \u21457 \u35813 \u20107 \u20214 \u26102 \u25191 \u34892 \u30340 \u20989 \u25968 \u12290 \cb1 \
+\cb3 \uc0\u20363 \u22914 \u65292 \u20351 \u29992 one\u26041 \u27861 \u32465 \u23450 <div>\u20803 \u32032 \u30340 \u21333 \u20987 \u20107 \u20214 \u65292 \u22312 \u20107 \u20214 \u25191 \u34892 \u30340 \u20989 \u25968 \u20013 \u65292 \u32047 \u35745 \u25191 \u34892 \u30340 \u27425 \u25968 \u65292 \u24182 \u23558 \u35813 \u27425 \u25968 \u26174 \u31034 \u22312 \u39029 \u38754 \u20013 \u65292 \u22914 \u19979 \u22270 \u25152 \u31034 \u65306 \cb1 \
+\pard\pardeftab720\partightenfactor0
+{\field{\*\fldinst{HYPERLINK "http://img.mukewang.com/52d231bd000192fb04310219.jpg"}}{\fldrslt \cf7 {{\NeXTGraphic 52d231bd000192fb04310219.jpg \width6465 \height3285 \noorient
+}¬}}}\pard\pardeftab720\partightenfactor0
+\cf5 \
+\cb3 \uc0\u22312 \u27983 \u35272 \u22120 \u20013 \u26174 \u31034 \u30340 \u25928 \u26524 \u65306 \cb1 \
+\pard\pardeftab720\partightenfactor0
+{\field{\*\fldinst{HYPERLINK "http://img.mukewang.com/52d231dd00011da004890293.jpg"}}{\fldrslt \cf7 {{\NeXTGraphic 52d231dd00011da004890293.jpg \width7335 \height4395 \noorient
+}¬}}}\pard\pardeftab720\partightenfactor0
+\cf5 \
+\cb3 \uc0\u20174 \u22270 \u20013 \u21487 \u20197 \u30475 \u20986 \u65292 \u30001 \u20110 \u20351 \u29992 \u20102 
+\f2 \cb6 one()
+\f1 \cb3 \uc0\u26041 \u27861 \u32465 \u23450 <div>\u20803 \u32032 \u30340 \u21333 \u20987 \u20107 \u20214 \u65292 \u22240 \u20026 \u20107 \u20214 \u20989 \u25968 \u21482 \u33021 \u25191 \u34892 \u19968 \u27425 \u65292 \u25191 \u34892 \u23436 \u25104 \u21518 \u65292 \u26080 \u35770 \u22914 \u20309 \u21333 \u20987 \u65292 \u37117 \u19981 \u20877 \u35302 \u21457 \u12290 \
+\uc0\u31034 \u20363 \u65306 \u20030 \u20363 \u20013 data\u30340 \u29992 \u27861 \
+        <script type="text/javascript">\
+            $(function () \{\
+                var intI = 0;\
+            //\uc0\u20197 \u19979 \u26159 \u25105 \u21152 \u19978 data\u25968 \u25454 \u65292 \u26041 \u20415 \u22823 \u23478 \u21442 \u32771 \u12290 \
+             \cf10    var data = \{width:350,height:280,color:"blue"\};\cf5 \
+                $("#div").one("click",\cf10 data\cf5 , function () \{\
+            intI++;\
+            $(this).css("font-size", 30*intI + "px");\
+            $(this).css("width",data.width);\
+            $(this).css("color","white");\
+            $(this).css("background",data.color);\
+                \})       \
+            \});\
+        </script>\
+        </script>\
+    </body>\
+        \
+    </html>\
+\cf9 7.\cb3 \uc0\u35843 \u29992 trigger()\u26041 \u27861 \u25163 \u21160 \u35302 \u21457 \u25351 \u23450 \u30340 \u20107 \u20214 \cf4 \
+
+\f2 \cf5 \cb6 trigger()
+\f1 \cb3 \uc0\u26041 \u27861 \u21487 \u20197 \u30452 \u25509 \u25163 \u21160 \u35302 \u21457 \u20803 \u32032 \u25351 \u23450 \u30340 \u20107 \u20214 \u65292 \u36825 \u20123 \u20107 \u20214 \u21487 \u20197 \u26159 \u20803 \u32032 \u33258 \u24102 \u20107 \u20214 \u65292 \u20063 \u21487 \u20197 \u26159 \u33258 \u23450 \u20041 \u30340 \u20107 \u20214 \u65292 \u24635 \u20043 \u65292 \u35813 \u20107 \u20214 \u24517 \u39035 \u33021 \u25191 \u34892 \u65292 \u23427 \u30340 \u35843 \u29992 \u26684 \u24335 \u20026 \u65306 \cb1 \
+
+\f2 \cb6 $(selector).trigger(event)
+\f1 \cb1 \
+\cb3 \uc0\u20854 \u20013 event\u21442 \u25968 \u20026 \u38656 \u35201 \u25163 \u21160 \u35302 \u21457 \u30340 \u20107 \u20214 \u21517 \u31216 \u12290 \cb1 \
+\cb3 \uc0\u20363 \u22914 \u65292 \u24403 \u39029 \u38754 \u21152 \u36733 \u26102 \u65292 \u25163 \u21160 \u35302 \u21457 \u25991 \u26412 \u36755 \u20837 \u26694 \u30340 \'93select\'94\u20107 \u20214 \u65292 \u20351 \u25991 \u26412 \u26694 \u30340 \u40664 \u35748 \u20540 \u22788 \u20110 \u20840 \u37096 \u34987 \u36873 \u20013 \u30340 \u29366 \u24577 \u65292 \u22914 \u19979 \u22270 \u25152 \u31034 \u65306 \cb1 \
+\pard\pardeftab720\partightenfactor0
+{\field{\*\fldinst{HYPERLINK "http://img.mukewang.com/52d233a30001df8204290153.jpg"}}{\fldrslt \cf7 {{\NeXTGraphic 52d233a30001df8204290153.jpg \width6435 \height2295 \noorient
+}¬}}}\pard\pardeftab720\partightenfactor0
+\cf5 \
+\cb3 \uc0\u22312 \u27983 \u35272 \u22120 \u20013 \u26174 \u31034 \u30340 \u25928 \u26524 \u65306 \cb1 \
+\pard\pardeftab720\partightenfactor0
+{\field{\*\fldinst{HYPERLINK "http://img.mukewang.com/52d233c50001587304890256.jpg"}}{\fldrslt \cf7 {{\NeXTGraphic 52d233c50001587304890256.jpg \width7335 \height3840 \noorient
+}¬}}}\pard\pardeftab720\partightenfactor0
+\cf5 \
+\cb3 \uc0\u20174 \u22270 \u20013 \u21487 \u20197 \u30475 \u20986 \u65292 \u30001 \u20110 \u25991 \u26412 \u36755 \u20837 \u26694 \u35843 \u29992 
+\f2 \cb6 trigger()
+\f1 \cb3 \uc0\u26041 \u27861 \u35302 \u21457 \u20102 \'93select\'94\u20107 \u20214 \u65292 \u22240 \u27492 \u65292 \u24403 \u39029 \u38754 \u21152 \u36733 \u23436 \u25104 \u21518 \u65292 \u25991 \u26412 \u26694 \u20013 \u30340 \u40664 \u35748 \u20540 \u22788 \u20110 \u20840 \u37096 \u34987 \u36873 \u20013 \u30340 \u29366 \u24577 \u12290 \
+\
+\pard\pardeftab720\partightenfactor0
+\cf10 \cb1 trigger()\uc0\u39038 \u21517 \u24605 \u20041 \u35302 \u21457 \u65288 \u20107 \u20214 \u65289 \u65292 \u19981 \u29992 \u28857 \u20987 \u12289 \u40736 \u26631 \u31227 \u21160 \u31561 \u25805 \u20316 \u23601 \u33021 \u23454 \u29616 \u20803 \u32032 \u19978 \u32465 \u23450 \u30340 \u20107 \u20214 \u12290 \u24403 \u28982 click()\u20063 \u26377 \u21516 \u26679 \u30340 \u21151 \u33021 \u12290 trigger()\u21644 click()\u23454 \u29616 \u35302 \u21457 \u20107 \u20214 \u30340 \u21306 \u21035 \u22312 \u20110 trigger(e,extraParameters)\u21487 \u20197 \u20256 \u21442 \u25968 \cf4 \
+\
+\uc0\u31616 \u21333 \u30340 \u35828 \u65306 \cf10 trigger()\uc0\u23601 \u26159 \u20027 \u21160 \u35302 \u21457  \u24403 \u39029 \u38754 \u21152 \u36733 \u23436 \u27605 \u20027 \u21160 \u36816 \u21160 \u35774 \u32622 \u22909 \u30340 \u20107 \u20214 \u20989 \u25968  \u35821 \u27861 \u65306 $('selector').trigger('xxx') xxx\u26159 \u33258 \u23450 \u20041 \u20107 \u20214 \cf5 \cb3 \
+\pard\pardeftab720\partightenfactor0
+\cf11 8.\cb3 \uc0\u25991 \u26412 \u26694 \u30340 focus\u21644 blur\u20107 \u20214 \cf4 \
+\cf5 \cb3 focus\uc0\u20107 \u20214 \u22312 \u20803 \u32032 \u33719 \u21462 \u28966 \u28857 \u26102 \u35302 \u21457 \u65292 \u22914 \u28857 \u20987 \u25991 \u26412 \u26694 \u26102 \u65292 \u35302 \u21457 \u35813 \u20107 \u20214 \u65307 \u32780 blur\u20107 \u20214 \u21017 \u22312 \u20803 \u32032 \u20002 \u22833 \u28966 \u28857 \u26102 \u35302 \u21457 \u65292 \u22914 \u28857 \u20987 \u38500 \u25991 \u26412 \u26694 \u30340 \u20219 \u20309 \u20803 \u32032 \u65292 \u37117 \u20250 \u35302 \u21457 \u35813 \u20107 \u20214 \u12290 \cb1 \
+\cb3 \uc0\u20363 \u22914 \u65292 \u22312 \u35302 \u21457 \u25991 \u26412 \u26694 \u30340 \'93focus\'94\u20107 \u20214 \u26102 \u65292 <div>\u20803 \u32032 \u26174 \u31034 \u25552 \u31034 \u20869 \u23481 \u65292 \u22914 \u19979 \u22270 \u25152 \u31034 \u65306 \cb1 \
+\pard\pardeftab720\partightenfactor0
+{\field{\*\fldinst{HYPERLINK "http://img.mukewang.com/52d235210001b6f203730194.jpg"}}{\fldrslt \cf7 {{\NeXTGraphic 52d235210001b6f203730194.jpg \width5595 \height2910 \noorient
+}¬}}}\pard\pardeftab720\partightenfactor0
+\cf5 \
+\cb3 \uc0\u22312 \u27983 \u35272 \u22120 \u20013 \u26174 \u31034 \u30340 \u25928 \u26524 \u65306 \cb1 \
+\pard\pardeftab720\partightenfactor0
+{\field{\*\fldinst{HYPERLINK "http://img.mukewang.com/52d2353f00013ccf04890294.jpg"}}{\fldrslt \cf7 {{\NeXTGraphic 52d2353f00013ccf04890294.jpg \width7335 \height4410 \noorient
+}¬}}}\pard\pardeftab720\partightenfactor0
+\cf5 \
+\cb3 \uc0\u20174 \u22270 \u20013 \u21487 \u20197 \u30475 \u20986 \u65292 \u24403 \u28857 \u20987 \u25991 \u26412 \u26694 \u26102 \u65292 \u35302 \u21457 \u25991 \u26412 \u26694 \u30340 \'93focus\'94\u20107 \u20214 \u65292 \u22312 \u35813 \u20107 \u20214 \u20013 \u65292 \u39029 \u38754 \u20013 \u30340 <div>\u20803 \u32032 \u26174 \u31034 \u25552 \u31034 \u20449 \u24687 \u12290 \
+\uc0\u20195 \u30721 \u20030 \u20363 \u65306 \
+    </head>\
+    <body>\
+        <h3>\uc0\u34920 \u21333 \u20013 \u25991 \u26412 \u26694 \u30340 focus\u21644 blur\u20107 \u20214 </h3>\
+        <input id="txtest" type="text" value="" />\
+        <div></div>\
+        <script type="text/javascript">\
+            $(function () \{\
+                $("input")\
+             \cf12    .bind("focus", function () \{\
+\cf5                     $("div").html("\uc0\u35831 \u36755 \u20837 \u24744 \u30340 \u22995 \u21517 \u65281 ");\
+                \})\
+\cf12           .bind("blur", function () \{\
+\cf5                     if ($(this).val().length == 0)\
+                        $("div").html("\uc0\u20320 \u30340 \u21517 \u31216 \u19981 \u33021 \u20026 \u31354 \u65281 ");\
+                \})\
+            \});\
+        </script>\
+    </body>\
+</html>\
+\
+\cf9 9.\cb3 \uc0\u19979 \u25289 \u21015 \u34920 \u26694 \u30340 change\u20107 \u20214 \
+\cf5 \cb3 \uc0\u24403 \u19968 \u20010 \u20803 \u32032 \u30340 \u20540 \u21457 \u29983 \u21464 \u21270 \u26102 \u65292 \u23558 \u20250 \u35302 \u21457 
+\f2 \cb6 change
+\f1 \cb3 \uc0\u20107 \u20214 \u65292 \u20363 \u22914 \u22312 \u36873 \u25321 \u19979 \u25289 \u21015 \u34920 \u26694 \u20013 \u30340 \u36873 \u39033 \u26102 \u65292 \u23601 \u20250 \u35302 
+\f2 \cb6 change
+\f1 \cb3 \uc0\u20107 \u20214 \u12290 \cb1 \
+\cb3 \uc0\u20363 \u22914 \u65292 \u24403 \u22312 \u39029 \u38754 \u36873 \u25321 \u19979 \u25289 \u21015 \u34920 \u26694 \u20013 \u30340 \u36873 \u39033 \u26102 \u65292 \u23558 \u22312 <div>\u20803 \u32032 \u20013 \u26174 \u31034 \u25152 \u36873 \u25321 \u30340 \u36873 \u39033 \u20869 \u23481 \u65292 \u22914 \u19979 \u22270 \u25152 \u31034 \u65306 \cb1 \
+\pard\pardeftab720\partightenfactor0
+{\field{\*\fldinst{HYPERLINK "http://img.mukewang.com/52d236cc00019b6d04420272.jpg"}}{\fldrslt \cf7 {{\NeXTGraphic 52d236cc00019b6d04420272.jpg \width6630 \height4080 \noorient
+}¬}}}\pard\pardeftab720\partightenfactor0
+\cf5 \
+\cb3 \uc0\u22312 \u27983 \u35272 \u22120 \u20013 \u26174 \u31034 \u30340 \u25928 \u26524 \u65306 \cb1 \
+\pard\pardeftab720\partightenfactor0
+{\field{\*\fldinst{HYPERLINK "http://img.mukewang.com/52d236ea0001022a04890294.jpg"}}{\fldrslt \cf7 {{\NeXTGraphic 52d236ea0001022a04890294.jpg \width7335 \height4410 \noorient
+}¬}}}\pard\pardeftab720\partightenfactor0
+\cf5 \
+\cb3 \uc0\u20174 \u22270 \u20013 \u21487 \u20197 \u30475 \u20986 \u65292 \u30001 \u20110 \u20351 \u29992 
+\f2 \cb6 bind()
+\f1 \cb3 \uc0\u26041 \u27861 \u32465 \u23450 \u20102 \u19979 \u25289 \u21015 \u34920 \u30340 \'93change\'94\u20107 \u20214 \u65292 \u22240 \u27492 \u65292 \u24403 \u36873 \u25321 \u21015 \u34920 \u20013 \u30340 \u36873 \u39033 \u26102 \u65292 \u22312 <div>\u20803 \u32032 \u20013 \u26174 \u31034 \u25152 \u36873 \u25321 \u30340 \u36873 \u39033 \u20869 \u23481 \u12290 \
+\
+\cf2 10.\cb3 \uc0\u35843 \u29992 live()\u26041 \u27861 \u32465 \u23450 \u20803 \u32032 \u30340 \u20107 \u20214 (\u20102 \u35299 )\cf4 \
+\cf5 \cb3 \uc0\u19982 
+\f2 \cb6 bind()
+\f1 \cb3 \uc0\u26041 \u27861 \u30456 \u21516 \u65292 
+\f2 \cb6 live()
+\f1 \cb3 \uc0\u26041 \u27861 \u19982 \u21487 \u20197 \u32465 \u23450 \u20803 \u32032 \u30340 \u21487 \u25191 \u34892 \u20107 \u20214 \u65292 \u38500 \u27492 \u30456 \u21516 \u21151 \u33021 \u20043 \u22806 \u65292 
+\f2 \cb6 live()
+\f1 \cb3 \uc0\u26041 \u27861 \u36824 \u21487 \u20197 \u32465 \u23450 \u21160 \u24577 \u20803 \u32032 \u65292 \u21363 \u20351 \u29992 \u20195 \u30721 \u28155 \u21152 \u30340 \u20803 \u32032 \u20107 \u20214 \u65292 \u26684 \u24335 \u22914 \u19979 \u65306 \cb1 \
+
+\f2 \cb6 $(selector).live(event,[data],fun)
+\f1 \cb1 \
+\cb3 \uc0\u21442 \u25968 event\u20026 \u20107 \u20214 \u21517 \u31216 \u65292 data\u20026 \u35302 \u21457 \u20107 \u20214 \u26102 \u25658 \u24102 \u30340 \u25968 \u25454 \u65292 fun\u20026 \u35302 \u21457 \u35813 \u20107 \u20214 \u26102 \u25191 \u34892 \u30340 \u20989 \u25968 \u12290 \
+\
+\uc0\u27880 \u24847 \u65306 \u20174  jQuery 1.7 \u24320 \u22987 \u65292 \u19981 \u20877 \u24314 \u35758 \u20351 \u29992  .live() \u26041 \u27861 \u12290 1.9\u19981 \u25903 \u25345 .live()\u65292 \u26412 \u33410 \u20195 \u30721 \u32534 \u36753 \u22120 \u37324 \u30340 js\u24341 \u29992 \u29256 \u26412 \u25913 \u20026 \u20102 1.8\u12290 \
+\
+\cf9 11. bind \uc0\u26041 \u27861 \u32465 \u23450 \u20803 \u32032 \u30340 \u22810 \u20010 \u20107 \u20214 \u30340 \u26102 \u20505 \u65292 \u21482 \u38656 \u35201 \u23558 \u20107 \u20214 \u29992 \u31354 \u26684 \u38548 \u24320 \
+\
+\uc0\u21160 \u30011 \u29305 \u25928 \
+\cf11 12.\cb3 \uc0\u35843 \u29992 show()\u21644 hide()\u26041 \u27861 \u26174 \u31034 \u21644 \u38544 \u34255 \u20803 \u32032 \cf4 \
+
+\f2 \cf5 \cb6 show()
+\f1 \cb3 \uc0\u21644 
+\f2 \cb6 hide()
+\f1 \cb3 \uc0\u26041 \u27861 \u29992 \u20110 \u26174 \u31034 \u25110 \u38544 \u34255 \u39029 \u38754 \u20013 \u30340 \u20803 \u32032 \u65292 \u23427 \u30340 \u35843 \u29992 \u26684 \u24335 \u20998 \u21035 \u20026 \u65306 \cb1 \
+
+\f2 \cb6 $(selector).hide(speed,[callback])
+\f1 \cb3 \uc0\u21644 
+\f2 \cb6 $(selector).show(speed,[callback])
+\f1 \cb1 \
+\cb3 \uc0\u21442 \u25968 speed\u35774 \u32622 \u38544 \u34255 \u25110 \u26174 \u31034 \u26102 \u30340 \u36895 \u24230 \u20540 \u65292 \u21487 \u20026 \'93slow\'94\u12289 \'93fast\'94\u25110 \u27627 \u31186 \u25968 \u20540 \u65292 \u21487 \u36873 \u39033 \u21442 \u25968 callback\u20026 \u38544 \u34255 \u25110 \u26174 \u31034 \u21160 \u20316 \u25191 \u34892 \u23436 \u25104 \u21518 \u35843 \u29992 \u30340 \u20989 \u25968 \u21517 \u12290 \cb1 \
+\cb3 \uc0\u20363 \u22914 \u65292 \u22312 \u39029 \u38754 \u20013 \u65292 \u36890 \u36807 \u28857 \u20987 \'93\u26174 \u31034 \'94\u21644 \'93\u38544 \u34255 \'94\u20004 \u20010 \u25353 \u38062 \u26469 \u25511 \u21046 \u22270 \u29255 \u20803 \u32032 \u30340 \u26174 \u31034 \u25110 \u38544 \u34255 \u29366 \u24577 \u65292 \u22914 \u19979 \u22270 \u25152 \u31034 \u65306 \cb1 \
+\pard\pardeftab720\partightenfactor0
+{\field{\*\fldinst{HYPERLINK "http://img.mukewang.com/52dc9f250001508d03860257.jpg"}}{\fldrslt \cf7 {{\NeXTGraphic 52dc9f250001508d03860257.jpg \width5790 \height3855 \noorient
+}¬}}}\pard\pardeftab720\partightenfactor0
+\cf5 \
+\cb3 \uc0\u22312 \u27983 \u35272 \u22120 \u20013 \u26174 \u31034 \u30340 \u25928 \u26524 \u65306 \cb1 \
+\pard\pardeftab720\partightenfactor0
+{\field{\*\fldinst{HYPERLINK "http://img.mukewang.com/52dc9f450001e4a205620313.jpg"}}{\fldrslt \cf7 {{\NeXTGraphic 52dc9f450001e4a205620313.jpg \width8430 \height4695 \noorient
+}¬}}}\pard\pardeftab720\partightenfactor0
+\cf5 \
+\cb3 \uc0\u20174 \u22270 \u20013 \u21487 \u20197 \u30475 \u20986 \u65292 \u28857 \u20987 \'93\u26174 \u31034 \'94\u25353 \u38062 \u26102 \u65292 \u21487 \u20197 \u23558 \u22270 \u29255 \u20803 \u32032 \u26174 \u31034 \u22312 \u39029 \u38754 \u20013 \u65292 \u28857 \u20987 \'93\u38544 \u34255 \'94\u25353 \u38062 \u26102 \u65292 \u21017 \u23558 \u22270 \u29255 \u20803 \u32032 \u38544 \u34255 \u36215 \u26469 \u12290 \
+\cf11 13.\cb3 \uc0\u21160 \u30011 \u25928 \u26524 \u30340 show()\u21644 hide()\u26041 \u27861 \cf4 \
+\cf5 \cb3 \uc0\u22312 \u19978 \u19968 \u23567 \u33410 \u20013 \u65292 \u35843 \u29992 
+\f2 \cb6 show()
+\f1 \cb3 \uc0\u21644 
+\f2 \cb6 hide()
+\f1 \cb3 \uc0\u26041 \u27861 \u20165 \u26159 \u23454 \u29616 \u30340 \u20803 \u32032 \u30340 \u26174 \u31034 \u21644 \u38544 \u34255 \u21151 \u33021 \u65292 \u22914 \u26524 \u22312 \u36825 \u20123 \u26041 \u27861 \u20013 \u22686 \u21152 \'93speed\'94\u21442 \u25968 \u21487 \u20197 \u23454 \u29616 \u21160 \u30011 \u25928 \u26524 \u30340 \u26174 \u31034 \u19982 \u38544 \u34255 \u65292 \u21516 \u26102 \u65292 \u22914 \u26524 \u28155 \u21152 \u20102 \u26041 \u27861 \u30340 \u22238 \u35843 \u20989 \u25968 \u65292 \u23427 \u23558 \u22312 \u26174 \u31034 \u25110 \u38544 \u34255 \u25191 \u34892 \u25104 \u21151 \u21518 \u34987 \u35843 \u29992 \u12290 \cb1 \
+\cb3 \uc0\u20363 \u22914 \u65292 \u20197 \u21160 \u30011 \u30340 \u26041 \u24335 \u26174 \u31034 \u25110 \u38544 \u34255 \u39029 \u38754 \u20013 \u30340 \u22270 \u29255 \u65292 \u21516 \u26102 \u65292 \u24403 \u26174 \u31034 \u25110 \u38544 \u34255 \u23436 \u25104 \u26102 \u65292 \u23545 \u24212 \u30340 \u25353 \u38062 \u29366 \u24577 \u23558 \u21464 \u20026 \u19981 \u21487 \u29992 \u65292 \u22914 \u19979 \u22270 \u25152 \u31034 \u65306 \cb1 \
+\pard\pardeftab720\partightenfactor0
+{\field{\*\fldinst{HYPERLINK "http://img.mukewang.com/52dca0cb00012c5604130354.jpg"}}{\fldrslt \cf7 {{\NeXTGraphic 52dca0cb00012c5604130354.jpg \width6195 \height5310 \noorient
+}¬}}}\pard\pardeftab720\partightenfactor0
+\cf5 \
+\cb3 \uc0\u22312 \u27983 \u35272 \u22120 \u20013 \u26174 \u31034 \u30340 \u25928 \u26524 \u65306 \cb1 \
+\pard\pardeftab720\partightenfactor0
+{\field{\*\fldinst{HYPERLINK "http://img.mukewang.com/52dca1180001468205960341.jpg"}}{\fldrslt \cf7 {{\NeXTGraphic 52dca1180001468205960341.jpg \width8940 \height5115 \noorient
+}¬}}}\pard\pardeftab720\partightenfactor0
+\cf5 \
+\cb3 \uc0\u20174 \u22270 \u20013 \u21487 \u20197 \u30475 \u20986 \u65292 \u24403 \u20197 \u21160 \u30011 \u26041 \u24335 \u26174 \u31034 \u25110 \u38544 \u34255 \u22270 \u29255 \u26102 \u65292 \u22270 \u29255 \u22312 \u26174 \u31034 \u25110 \u38544 \u34255 \u36807 \u31243 \u20013 \u65292 \u21017 \u20197 \u21160 \u30011 \u25928 \u26524 \u25353 \'93speed\'94\u21442 \u25968 \u35774 \u32622 \u25968 \u23383 \u25191 \u34892 \u65292 \u23436 \u25104 \u21518 \u65292 \u35843 \u29992 \u22238 \u35843 \u20989 \u25968 \u20013 \u30340 \u20195 \u30721 \u12290 \
+\uc0\u31034 \u20363 \u65306 \u26174 \u31034 \u38544 \u34255 \u22686 \u21152 \u26102 \u38388 \u21644 \u36895 \u24230 \
+       <script type="text/javascript">\
+            $(function () \{\
+                $("h4").bind("click", function () \{\
+                    if ($("#hidval").val() == 0) \{\
+                 \cf12     $("ul").show(1500,function()\{\
+\cf5                             $("#hidval").val(1);\
+                        \})\
+                    \} else \{\
+\cf12    $("ul").hide("fast",function()\{    \
+\cf5        $("#hidval").val(0);\
+                        \})\
+                    \}\
+                \})\
+            \});\
+        </script>\
+\cf11 14.\cb3 \uc0\u35843 \u29992 toggle()\u26041 \u27861 \u23454 \u29616 \u21160 \u30011 \u20999 \u25442 \u25928 \u26524 \
+\cf5 \cb3 \uc0\u35843 \u29992 
+\f2 \cb6 toggle()
+\f1 \cb3 \uc0\u26041 \u27861 \u23601 \u21487 \u20197 \u24456 \u23481 \u26131 \u20570 \u21040 \u65292 \u21363 \u22914 \u26524 \u20803 \u32032 \u22788 \u20110 \u26174 \u31034 \u29366 \u24577 \u65292 \u35843 \u29992 \u35813 \u26041 \u27861 \u21017 \u38544 \u34255 \u35813 \u20803 \u32032 \u65292 \u21453 \u20043 \u65292 \u21017 \u26174 \u31034 \u35813 \u20803 \u32032 \u65292 \u23427 \u30340 \u35843 \u29992 \u26684 \u24335 \u26159 \u65306 \cb1 \
+
+\f2 \cb6 $(selector).toggle(speed,[callback])
+\f1 \cb1 \
+\cb3 \uc0\u20854 \u20013 speed\u21442 \u25968 \u20026 \u21160 \u30011 \u25928 \u26524 \u26102 \u30340 \u36895 \u24230 \u20540 \u65292 \u21487 \u20197 \u20026 \u25968 \u23383 \u65292 \u21333 \u20301 \u20026 \u27627 \u31186 \u65292 \u20063 \u21487 \u26159 \'93fast\'94\u12289 \'93slow\'94\u23383 \u31526 \u65292 \u21487 \u36873 \u39033 \u21442 \u25968 callback\u20026 \u26041 \u27861 \u25191 \u34892 \u25104 \u21151 \u21518 \u22238 \u35843 \u30340 \u20989 \u25968 \u21517 \u31216 \u12290 \cb1 \
+\cb3 \uc0\u20363 \u22914 \u65292 \u35843 \u29992 
+\f2 \cb6 toggle()
+\f1 \cb3 \uc0\u26041 \u27861 \u20197 \u21160 \u30011 \u30340 \u25928 \u26524 \u26174 \u31034 \u21644 \u38544 \u34255 \u22270 \u29255 \u20803 \u32032 \u65292 \u22914 \u19979 \u22270 \u25152 \u31034 \u65306 \cb1 \
+\pard\pardeftab720\partightenfactor0
+{\field{\*\fldinst{HYPERLINK "http://img.mukewang.com/52dca25300010e0405830241.jpg"}}{\fldrslt \cf7 {{\NeXTGraphic 52dca25300010e0405830241.jpg \width8745 \height3615 \noorient
+}¬}}}\pard\pardeftab720\partightenfactor0
+\cf5 \
+\cb3 \uc0\u22312 \u27983 \u35272 \u22120 \u20013 \u26174 \u31034 \u30340 \u25928 \u26524 \u65306 \cb1 \
+\pard\pardeftab720\partightenfactor0
+{\field{\*\fldinst{HYPERLINK "http://img.mukewang.com/52dca2730001372d06240327.jpg"}}{\fldrslt \cf7 {{\NeXTGraphic 52dca2730001372d06240327.jpg \width9360 \height4905 \noorient
+}¬}}}\pard\pardeftab720\partightenfactor0
+\cf5 \
+\cb3 \uc0\u20174 \u22270 \u20013 \u21487 \u20197 \u30475 \u20986 \u65292 \u24403 \u25353 \u38062 \u26174 \u31034 \u20869 \u23481 \u20026 \'93\u38544 \u34255 \'94\u26102 \u65292 \u28857 \u20987 \u35813 \u25353 \u38062 \u65292 \u23558 \u35843 \u29992 
+\f2 \cb6 toggle()
+\f1 \cb3 \uc0\u26041 \u27861 \u20197 \u21160 \u30011 \u30340 \u26041 \u24335 \u38544 \u34255 \u22270 \u29255 \u20803 \u32032 \u65292 \u38544 \u34255 \u25104 \u21151 \u21518 \u65292 \u25353 \u38062 \u26174 \u31034 \u30340 \u20869 \u23481 \u21464 \u20026 \'93\u26174 \u31034 \'94\u12290 \
+\uc0\u23454 \u29616 \u26174 \u31034 \u21644 \u38544 \u34255 \u30340 \u20195 \u30721 \u65306 \
+       <script type="text/javascript">\
+            $(function () \{\
+                var $spn = $("#spnTip");\
+                $("h4").bind("click", function () \{\
+                  \cf12   $("ul").toggle(3000, function()\{\cf5 \
+                     $spn.html() == "\uc0\u38544 \u34255 " ? $spn.html("\u26174 \u31034 ") : $spn.html("\u38544 \u34255 ");\
+                    \})\
+                \});\
+            \});\
+        </script>\
+    </body>\
+</html>\
+\cf11 15.\cb3 \uc0\u20351 \u29992 slideUp()\u21644 slideDown()\u26041 \u27861 \u30340 \u28369 \u21160 \u25928 \u26524 \
+\cf5 \cb3 \uc0\u21487 \u20197 \u20351 \u29992 
+\f2 \cb6 slideUp()
+\f1 \cb3 \uc0\u21644 
+\f2 \cb6 slideDown()
+\f1 \cb3 \uc0\u26041 \u27861 \u22312 \u39029 \u38754 \u20013 \u28369 \u21160 \u20803 \u32032 \u65292 \u21069 \u32773 \u29992 \u20110 \u21521 \u19978 \u28369 \u21160 \u20803 \u32032 \u65292 \u21518 \u32773 \u29992 \u20110 \u21521 \u19979 \u28369 \u21160 \u20803 \u32032 \u65292 \u23427 \u20204 \u30340 \u35843 \u29992 \u26041 \u27861 \u20998 \u21035 \u20026 \u65306 \cb1 \
+
+\f2 \cb6 $(selector).slideUp(speed,[callback])
+\f1 \cb3 \uc0\u21644 
+\f2 \cb6 $(selector).slideDown(speed,[callback])
+\f1 \cb1 \
+\cb3 \uc0\u20854 \u20013 speed\u21442 \u25968 \u20026 \u28369 \u21160 \u26102 \u30340 \u36895 \u24230 \u65292 \u21333 \u20301 \u26159 \u27627 \u31186 \u65292 \u21487 \u36873 \u39033 \u21442 \u25968 callback\u20026 \u28369 \u21160 \u25104 \u21151 \u21518 \u25191 \u34892 \u30340 \u22238 \u35843 \u20989 \u25968 \u21517 \u12290 \cb1 \
+\cb3 \uc0\u35201 \u27880 \u24847 \u30340 \u26159 \u65306 
+\f2 \cb6 slideDown()
+\f1 \cb3 \uc0\u20165 \u36866 \u29992 \u20110 \u34987 \u38544 \u34255 \u30340 \u20803 \u32032 \u65307 
+\f2 \cb6 slideup()
+\f1 \cb3 \uc0\u21017 \u30456 \u21453 \u12290 \cb1 \
+\cb3 \uc0\u20363 \u22914 \u65292 \u35843 \u29992 
+\f2 \cb6 slideUp()
+\f1 \cb3 \uc0\u21644 
+\f2 \cb6 slideDown()
+\f1 \cb3 \uc0\u26041 \u27861 \u23454 \u29616 \u39029 \u38754 \u20013 \u20803 \u32032 \u30340 \u21521 \u19978 \u21644 \u21521 \u19979 \u30340 \u28369 \u21160 \u25928 \u26524 \u65292 \u22914 \u19979 \u22270 \u25152 \u31034 \u65306 \cb1 \
+\pard\pardeftab720\partightenfactor0
+{\field{\*\fldinst{HYPERLINK "http://img.mukewang.com/52dcb1b20001c7d403880386.jpg"}}{\fldrslt \cf7 {{\NeXTGraphic 52dcb1b20001c7d403880386.jpg \width5820 \height5790 \noorient
+}¬}}}\pard\pardeftab720\partightenfactor0
+\cf5 \
+\cb3 \uc0\u22312 \u27983 \u35272 \u22120 \u20013 \u26174 \u31034 \u30340 \u25928 \u26524 \u65306 \cb1 \
+\pard\pardeftab720\partightenfactor0
+{\field{\*\fldinst{HYPERLINK "http://img.mukewang.com/5366e34c0001eab206860385.jpg"}}{\fldrslt \cf7 {{\NeXTGraphic 5366e34c0001eab206860385.jpg.png \width10290 \height5775 \noorient
+}¬}}}\pard\pardeftab720\partightenfactor0
+\cf5 \
+\cb3 \uc0\u20174 \u22270 \u20013 \u21487 \u20197 \u30475 \u20986 \u65292 \u26681 \u25454 \u25353 \u38062 \u20013 \u26174 \u31034 \u30340 \u20869 \u23481 \u65292 \u20998 \u21035 \u35843 \u29992 
+\f2 \cb6 slideUp()
+\f1 \cb3 \uc0\u21644 
+\f2 \cb6 slideDown()
+\f1 \cb3 \uc0\u26041 \u27861 \u65292 \u23454 \u29616 \u22270 \u29255 \u20803 \u32032 \u21521 \u19978 \u21644 \u21521 \u19979 \u30340 \u28369 \u21160 \u25928 \u26524 \u65292 \u24403 \u27599 \u20010 \u28369 \u21160 \u25928 \u26524 \u23436 \u25104 \u26102 \u65292 \u20877 \u36890 \u36807 \u22238 \u35843 \u20989 \u25968 \u25913 \u21464 \u25353 \u38062 \u20013 \u26174 \u31034 \u20869 \u23481 \u12290 \cb1 \
+\cb3 \uc0\u28369 \u21160 \u19982 \u28129 \u20837 \u28129 \u20986 \u30340 \u21306 \u21035 \u65306 \u28369 \u21160 \u25913 \u21464 \u20803 \u32032 \u30340 \u39640 \u24230 \u65292 \u28129 \u20837 \u28129 \u20986 \u25913 \u21464 \u20803 \u32032 \u30340 \u36879 \u26126 \u24230 \u12290 \
+  <body>\
+        <h3>\uc0\u20351 \u29992 slideUp()\u21644 slideDown()\u26041 \u27861 \u30340 \u28369 \u21160 \u25928 \u26524 </h3>\
+        <div>\
+            <h4>\uc0\u25105 \u21916 \u27426 \u21507 \u30340 \u27700 \u26524 </h4>\
+            <ul>\
+                <li>\uc0\u33529 \u26524 </li>\
+                <li>\uc0\u29976 \u26708 </li>\
+                <li>\uc0\u26792 </li>\
+            </ul>\
+            <input id="hidval" type="hidden" value="0"/>\
+        </div>\
+        \
+        <script type="text/javascript">\
+            $(function () \{\
+                $("h4").bind("click", function () \{\
+                    if ($("#hidval").val() == 0) \{\
+                 \cf12        $("ul").slideUp(3000,function()\{\cf5 \
+                            $("#hidval").val(1);\
+                        \})\
+                    \} else \{\
+\cf12                         $("ul").slideDown(3000,function()\{\
+\cf5                             $("#hidval").val(0);\
+                        \})\
+                    \}\
+                \})\
+            \});\
+        </script>\
+    </body>\
+</html>\
+\cf11 16.\cb3 \uc0\u20351 \u29992 slideToggle()\u26041 \u27861 \u23454 \u29616 \u22270 \u29255 \'93\u21464 \u33080 \'94\u25928 \u26524 \
+\cf5 \cb3 \uc0\u20351 \u29992 
+\f2 \cb6 slideToggle()
+\f1 \cb3 \uc0\u26041 \u27861 \u21487 \u20197 \u20999 \u25442 
+\f2 \cb6 slideUp()
+\f1 \cb3 \uc0\u21644 
+\f2 \cb6 slideDown()
+\f1 \cb3 \uc0\u65292 \u21363 \u35843 \u29992 \u35813 \u26041 \u27861 \u26102 \u65292 \u22914 \u26524 \u20803 \u32032 \u24050 \u21521 \u19978 \u28369 \u21160 \u65292 \u21017 \u20803 \u32032 \u33258 \u21160 \u21521 \u19979 \u28369 \u21160 \u65292 \u21453 \u20043 \u65292 \u21017 \u20803 \u32032 \u33258 \u21160 \u21521 \u19978 \u28369 \u21160 \u65292 \u26684 \u24335 \u20026 \u65306 \cb1 \
+
+\f2 \cb6 $(selector).slideToggle(speed,[callback])
+\f1 \cb1 \
+\cb3 \uc0\u20854 \u20013 speed\u21442 \u25968 \u20026 \u21160 \u30011 \u25928 \u26524 \u26102 \u30340 \u36895 \u24230 \u20540 \u65292 \u21487 \u20197 \u20026 \u25968 \u23383 \u65292 \u21333 \u20301 \u20026 \u27627 \u31186 \u65292 \u20063 \u21487 \u26159 \'93fast\'94\u12289 \'93slow\'94\u23383 \u31526 \u65292 \u21487 \u36873 \u39033 \u21442 \u25968 callback\u20026 \u26041 \u27861 \u25191 \u34892 \u25104 \u21151 \u21518 \u22238 \u35843 \u30340 \u20989 \u25968 \u21517 \u31216 \u12290 \cb1 \
+\cb3 \uc0\u20363 \u22914 \u65292 \u22312 \u39029 \u38754 \u20013 \u65292 \u20351 \u29992 
+\f2 \cb6 slideToggle()
+\f1 \cb3 \uc0\u26041 \u27861 \u23454 \u29616 \u22270 \u29255 \'93\u21464 \u33080 \'94\u25928 \u26524 \u65292 \u22914 \u19979 \u22270 \u25152 \u31034 \u65306 \cb1 \
+\pard\pardeftab720\partightenfactor0
+{\field{\*\fldinst{HYPERLINK "http://img.mukewang.com/52dcb5930001bd2603830402.jpg"}}{\fldrslt \cf7 {{\NeXTGraphic 52dcb5930001bd2603830402.jpg \width5745 \height6030 \noorient
+}¬}}}\pard\pardeftab720\partightenfactor0
+\cf5 \
+\cb3 \uc0\u22312 \u27983 \u35272 \u22120 \u20013 \u26174 \u31034 \u30340 \u25928 \u26524 \u65306 \cb1 \
+\pard\pardeftab720\partightenfactor0
+{\field{\*\fldinst{HYPERLINK "http://img.mukewang.com/52dcb5b40001da9d05510364.jpg"}}{\fldrslt \cf7 {{\NeXTGraphic 52dcb5b40001da9d05510364.jpg \width8265 \height5460 \noorient
+}¬}}}\pard\pardeftab720\partightenfactor0
+\cf5 \
+\cb3 \uc0\u20174 \u22270 \u20013 \u21487 \u20197 \u30475 \u20986 \u65292 \u24403 \u28857 \u20987 \u31532 \u19968 \u24352 \u22270 \u29255 \u26102 \u65292 \u21521 \u19978 \u28369 \u21160 \u25910 \u36215 \u35813 \u22270 \u29255 \u65292 \u24403 \u25910 \u36215 \u23436 \u25104 \u26102 \u65292 \u35302 \u21457 \u22238 \u35843 \u20989 \u25968 \u65292 \u35843 \u29992 \u31532 \u20108 \u24352 \u22270 \u29255 \u30340 
+\f2 \cb6 slideToggle()
+\f1 \cb3 \uc0\u26041 \u27861 \u65292 \u21521 \u19979 \u28369 \u21160 \u26174 \u31034 \u31532 \u20108 \u24352 \u22270 \u29255 \u12290 \
+\
+        <script type="text/javascript">\
+            $(function () \{\
+                var $spn = $("#spnTip");\
+                $("h4").bind("click", function () \{\
+\cf12                     $("ul").slideToggle(3000,function()\{\
+\cf5                $spn.html() == "\uc0\u21521 \u19979 \u28369 " ? $spn.html("\u21521 \u19978 \u28369 ") : $spn.html("\u21521 \u19979 \u28369 ");\
+                    \})\
+                \})\
+            \});\
+        </script>\
+\
+\cf11 17.\cb3 \uc0\u20351 \u29992 fadeIn()\u19982 fadeOut()\u26041 \u27861 \u23454 \u29616 \u28129 \u20837 \u28129 \u20986 \u25928 \u26524 \cf4 \
+
+\f2 \cf5 \cb6 fadeIn()
+\f1 \cb3 \uc0\u21644 
+\f2 \cb6 fadeOut()
+\f1 \cb3 \uc0\u26041 \u27861 \u21487 \u20197 \u23454 \u29616 \u20803 \u32032 \u30340 \u28129 \u20837 \u28129 \u20986 \u25928 \u26524 \u65292 \u21069 \u32773 \u28129 \u20837 \u38544 \u34255 \u30340 \u20803 \u32032 \u65292 \u21518 \u32773 \u21487 \u20197 \u28129 \u20986 \u21487 \u35265 \u30340 \u20803 \u32032 \u65292 \u23427 \u20204 \u30340 \u35843 \u29992 \u26684 \u24335 \u20998 \u21035 \u20026 \u65306 \cb1 \
+
+\f2 \cb6 $(selector).fadeIn(speed,[callback])
+\f1 \cb3 \uc0\u21644 
+\f2 \cb6 $(selector).fadeOut(speed,[callback])
+\f1 \cb1 \
+\cb3 \uc0\u20854 \u20013 \u21442 \u25968 speed\u20026 \u28129 \u20837 \u28129 \u20986 \u30340 \u36895 \u24230 \u65292 callback\u21442 \u25968 \u20026 \u23436 \u25104 \u21518 \u25191 \u34892 \u30340 \u22238 \u35843 \u20989 \u25968 \u21517 \u12290 \cb1 \
+\cb3 \uc0\u20363 \u22914 \u65292 \u20998 \u21035 \u22312 \u39029 \u38754 \u20013 \u20197 \u28129 \u20837 \u28129 \u20986 \u30340 \u21160 \u30011 \u25928 \u26524 \u26174 \u31034 \u22270 \u29255 \u20803 \u32032 \u65292 \u22914 \u19979 \u22270 \u25152 \u31034 \u65306 \cb1 \
+\pard\pardeftab720\partightenfactor0
+{\field{\*\fldinst{HYPERLINK "http://img.mukewang.com/549a7819000117a103910414.jpg"}}{\fldrslt \cf7 {{\NeXTGraphic 549a7819000117a103910414.jpg.png \width5865 \height6210 \noorient
+}¬}}}\pard\pardeftab720\partightenfactor0
+\cf5 \
+\cb3 \uc0\u22312 \u27983 \u35272 \u22120 \u20013 \u26174 \u31034 \u30340 \u25928 \u26524 \u65306 \cb1 \
+\pard\pardeftab720\partightenfactor0
+{\field{\*\fldinst{HYPERLINK "http://img.mukewang.com/549a782d0001eea505410456.jpg"}}{\fldrslt \cf7 {{\NeXTGraphic 549a782d0001eea505410456.jpg.png \width8115 \height6840 \noorient
+}¬}}}\pard\pardeftab720\partightenfactor0
+\cf5 \
+\cb3 \uc0\u20174 \u22270 \u20013 \u21487 \u20197 \u30475 \u20986 \u65292 \u24403 \u28857 \u20987 \'93\u28129 \u20986 \'94\u25353 \u38062 \u26102 \u65292 \u35843 \u29992 
+\f2 \cb6 fadeOut()
+\f1 \cb3 \uc0\u26041 \u27861 \u20197 \u28129 \u20986 \u25928 \u26524 \u38544 \u34255 \u22270 \u29255 \u65292 \u24403 \u28857 \u20987 \'93\u28129 \u20837 \'94\u25353 \u38062 \u26102 \u65292 \u35843 \u29992 
+\f2 \cb6 fadeIn()
+\f1 \cb3 \uc0\u26041 \u27861 \u20197 \u28129 \u20837 \u25928 \u26524 \u26174 \u31034 \u22270 \u29255 \u12290 \
+\uc0\u28129 \u20837 \u28129 \u20986 \u25928 \u26524 \u20195 \u30721 \u65306 \
+      <script type="text/javascript">\
+            $(function () \{\
+                $("h4").bind("click", function () \{\
+                    if ($("#hidval").val() == 0) \{\
+\cf12                         $("ul").fadeIn(1500,function()\{              //\uc0\u26174 \u31034 \
+\cf5                             $("#hidval").val(1);\
+                        \})\
+                    \} else \{\
+\cf12                         $("ul").fadeOut(800,function()\{       //\uc0\u38544 \u34255 \
+\cf5                             $("#hidval").val(0);\
+                        \})\
+                    \}\
+                \})\
+            \});\
+\
+\cf11 18.\cb3 \uc0\u20351 \u29992 fadeTo()\u26041 \u27861 \u35774 \u32622 \u28129 \u20837 \u28129 \u20986 \u25928 \u26524 \u30340 \u19981 \u36879 \u26126 \u24230 \
+\cf5 \cb3 \uc0\u35843 \u29992 
+\f2 \cb6 fadeTo()
+\f1 \cb3 \uc0\u26041 \u27861 \u65292 \u21487 \u20197 \u23558 \u25152 \u36873 \u25321 \u20803 \u32032 \u30340 \u19981 \u36879 \u26126 \u24230 \u20197 \u28129 \u20837 \u28129 \u20986 \u30340 \u25928 \u26524 \u35843 \u25972 \u20026 \u25351 \u23450 \u30340 \u20540 \u65292 \u35813 \u26041 \u27861 \u30340 \u35843 \u29992 \u26684 \u24335 \u20026 \u65306 \cb1 \
+
+\f2 \cb6 $(selector).fadeTo(speed,opacity,[callback])
+\f1 \cb1 \
+\cb3 \uc0\u20854 \u20013 speed\u21442 \u25968 \u20026 \u25928 \u26524 \u30340 \u36895 \u24230 \u65292 opacity\u21442 \u25968 \u20026 \u25351 \u23450 \u30340 \u19981 \u36879 \u26126 \u20540 \u65292 \u23427 \u30340 \u21462 \u20540 \u33539 \u22260 \u26159 0.0~1.0\u65292 \u21487 \u36873 \u39033 \u21442 \u25968 callback\u20026 \u25928 \u26524 \u23436 \u25104 \u21518 \u65292 \u22238 \u35843 \u30340 \u20989 \u25968 \u21517 \u12290 \cb1 \
+\cb3 \uc0\u20363 \u22914 \u65292 \u20998 \u21035 \u35843 \u29992 
+\f2 \cb6 fadeTo()
+\f1 \cb3 \uc0\u26041 \u27861 \u65292 \u35774 \u32622 \u19977 \u20010 \u22270 \u29255 \u20803 \u32032 \u30340 \u19981 \u36879 \u26126 \u24230 \u20540 \u65292 \u22914 \u19979 \u22270 \u25152 \u31034 \u65306 \cb1 \
+\pard\pardeftab720\partightenfactor0
+{\field{\*\fldinst{HYPERLINK "http://img.mukewang.com/52dcc1f20001235d03890370.jpg"}}{\fldrslt \cf7 {{\NeXTGraphic 52dcc1f20001235d03890370.jpg \width5835 \height5550 \noorient
+}¬}}}\pard\pardeftab720\partightenfactor0
+\cf5 \
+\cb3 \uc0\u22312 \u27983 \u35272 \u22120 \u20013 \u26174 \u31034 \u30340 \u25928 \u26524 \u65306 \cb1 \
+\pard\pardeftab720\partightenfactor0
+{\field{\*\fldinst{HYPERLINK "http://img.mukewang.com/52dcc22a000195fb05070349.jpg"}}{\fldrslt \cf7 {{\NeXTGraphic 52dcc22a000195fb05070349.jpg \width7605 \height5235 \noorient
+}¬}}}\pard\pardeftab720\partightenfactor0
+\cf5 \
+\cb3 \uc0\u20174 \u22270 \u20013 \u21487 \u20197 \u30475 \u20986 \u65292 \u35843 \u29992 
+\f2 \cb6 fadeTo()
+\f1 \cb3 \uc0\u26041 \u27861 \u65292 \u20998 \u21035 \u25913 \u21464 \'93opacity\'94\u21442 \u25968 \u30340 \u20540 \u65292 \u20197 \u28129 \u20837 \u28129 \u20986 \u30340 \u21160 \u30011 \u25928 \u26524 \u35774 \u32622 \u22270 \u29255 \u20803 \u32032 \u30340 \u19981 \u36879 \u26126 \u24230 \u12290 \
+\cf11 19.\cb3 \uc0\u35843 \u29992 animate()\u26041 \u27861 \u21046 \u20316 \u31616 \u21333 \u30340 \u21160 \u30011 \u25928 \u26524 \cf4 \
+\cf5 \cb3 \uc0\u35843 \u29992 
+\f2 \cb6 animate()
+\f1 \cb3 \uc0\u26041 \u27861 \u21487 \u20197 \u21019 \u24314 \u33258 \u23450 \u20041 \u21160 \u30011 \u25928 \u26524 \u65292 \u23427 \u30340 \u35843 \u29992 \u26684 \u24335 \u20026 \u65306 \cb1 \
+
+\f2 \cb6 $(selector).animate(\{params\},speed,[callback])
+\f1 \cb1 \
+\cb3 \uc0\u20854 \u20013 \u65292 params\u21442 \u25968 \u20026 \u21046 \u20316 \u21160 \u30011 \u25928 \u26524 \u30340 CSS\u23646 \u24615 \u21517 \u19982 \u20540 \u65292 speed\u21442 \u25968 \u20026 \u21160 \u30011 \u30340 \u25928 \u26524 \u30340 \u36895 \u24230 \u65292 \u21333 \u20301 \u20026 \u27627 \u31186 \u65292 \u21487 \u36873 \u39033 callback\u21442 \u25968 \u20026 \u21160 \u30011 \u23436 \u25104 \u26102 \u25191 \u34892 \u30340 \u22238 \u35843 \u20989 \u25968 \u21517 \u12290 \cb1 \
+\cb3 \uc0\u20363 \u22914 \u65292 \u35843 \u29992 
+\f2 \cb6 animate()
+\f1 \cb3 \uc0\u26041 \u27861 \u20197 \u30001 \u23567 \u21040 \u22823 \u30340 \u21160 \u30011 \u25928 \u26524 \u26174 \u31034 \u22270 \u29255 \u65292 \u22914 \u19979 \u22270 \u25152 \u31034 \u65306 \cb1 \
+\pard\pardeftab720\partightenfactor0
+{\field{\*\fldinst{HYPERLINK "http://img.mukewang.com/52dcc3b30001fd5803210256.jpg"}}{\fldrslt \cf7 {{\NeXTGraphic 52dcc3b30001fd5803210256.jpg \width4815 \height3840 \noorient
+}¬}}}\pard\pardeftab720\partightenfactor0
+\cf5 \
+\cb3 \uc0\u22312 \u27983 \u35272 \u22120 \u20013 \u26174 \u31034 \u30340 \u25928 \u26524 \u65306 \cb1 \
+\pard\pardeftab720\partightenfactor0
+{\field{\*\fldinst{HYPERLINK "http://img.mukewang.com/52dcc3ce0001af6604460337.jpg"}}{\fldrslt \cf7 {{\NeXTGraphic 52dcc3ce0001af6604460337.jpg \width6690 \height5055 \noorient
+}¬}}}\pard\pardeftab720\partightenfactor0
+\cf5 \
+\cb3 \uc0\u20174 \u22270 \u20013 \u21487 \u20197 \u30475 \u20986 \u65292 \u35843 \u29992 
+\f2 \cb6 animate()
+\f1 \cb3 \uc0\u26041 \u27861 \u65292 \u20197 \u28176 \u28176 \u25918 \u22823 \u30340 \u21160 \u30011 \u25928 \u26524 \u26174 \u31034 \u22270 \u29255 \u20803 \u32032 \u65292 \u24403 \u21160 \u30011 \u25191 \u34892 \u23436 \u25104 \u21518 \u65292 \u36890 \u36807 \u22238 \u35843 \u20989 \u25968 \u22312 \u39029 \u38754 \u30340 <div>\u20803 \u32032 \u20013 \u26174 \u31034 \'93\u25191 \u34892 \u23436 \u25104 !\'94\u30340 \u23383 \u26679 \u12290 \
+\uc0\u31034 \u20363 \u65306    <body>\
+        <h3>\uc0\u21046 \u20316 \u31616 \u21333 \u30340 \u21160 \u30011 \u25928 \u26524 </h3>\
+        <span></span>\
+        <div id="tip"></div>\
+        \
+        <script type="text/javascript">\
+            $(function () \{\
+\cf12                 $("span").animate(\{\
+\cf5                     width: "80px",\
+                    height: "80px"\
+                \},\
+                3000, function () \{\
+                    $("#tip").html("\uc0\u25191 \u34892 \u23436 \u25104 !");\
+                \});\
+            \});\
+        </script>\
+    </body>\
+\cf11 20.\cb3 \uc0\u35843 \u29992 animate()\u26041 \u27861 \u21046 \u20316 \u31227 \u21160 \u20301 \u32622 \u30340 \u21160 \u30011 \cf4 \
+\cf5 \cb3 \uc0\u35843 \u29992 
+\f2 \cb6 animate()
+\f1 \cb3 \uc0\u26041 \u27861 \u19981 \u20165 \u21487 \u20197 \u21046 \u20316 \u31616 \u21333 \u28176 \u28176 \u21464 \u22823 \u30340 \u21160 \u30011 \u25928 \u26524 \u65292 \u32780 \u19988 \u36824 \u33021 \u21046 \u20316 \u31227 \u21160 \u20301 \u32622 \u30340 \u21160 \u30011 \u65292 \cf11 \uc0\u22312 \u31227 \u21160 \u20301 \u32622 \u20043 \u21069 \u65292 \u24517 \u39035 \u23558 \u34987 \u31227 \u20803 \u32032 \u30340 \'93position\'94\u23646 \u24615 \u20540 \u35774 \u20026 \'93absolute\'94\u25110 \'93relative\'94\u65292 \u21542 \u21017 \u65292 \u35813 \u20803 \u32032 \u31227 \u21160 \u19981 \u20102 \u12290 \cf5 \cb1 \
+\cb3 \uc0\u20363 \u22914 \u65292 \u35843 \u29992 
+\f2 \cb6 animate()
+\f1 \cb3 \uc0\u26041 \u27861 \u20808 \u23558 \u22270 \u29255 \u21521 \u21491 \u31227 \u21160 90px\u65292 \u28982 \u21518 \u65292 \u20877 \u23558 \u22270 \u29255 \u23485 \u24230 \u19982 \u39640 \u24230 \u20998 \u21035 \u22686 \u21152 30px\u65292 \u22914 \u19979 \u22270 \u25152 \u31034 \u65306 \cb1 \
+\pard\pardeftab720\partightenfactor0
+{\field{\*\fldinst{HYPERLINK "http://img.mukewang.com/52dcc4eb0001c08e03410291.jpg"}}{\fldrslt \cf7 {{\NeXTGraphic 52dcc4eb0001c08e03410291.jpg \width5115 \height4365 \noorient
+}¬}}}\pard\pardeftab720\partightenfactor0
+\cf5 \
+\cb3 \uc0\u22312 \u27983 \u35272 \u22120 \u20013 \u26174 \u31034 \u30340 \u25928 \u26524 \u65306 \cb1 \
+\pard\pardeftab720\partightenfactor0
+{\field{\*\fldinst{HYPERLINK "http://img.mukewang.com/52dcc50b0001ba2205060337.jpg"}}{\fldrslt \cf7 {{\NeXTGraphic 52dcc50b0001ba2205060337.jpg \width7590 \height5055 \noorient
+}¬}}}\pard\pardeftab720\partightenfactor0
+\cf5 \
+\cb3 \uc0\u20174 \u22270 \u20013 \u21487 \u20197 \u30475 \u20986 \u65292 \u22270 \u29255 \u20808 \u21521 \u21491 \u31227 \u21160 \u20102 \'9390px\'94\u65292 \u28982 \u21518 \u65292 \u31227 \u21160 \u25104 \u21151 \u21518 \u65292 \u20877 \u22312 \u21407 \u26469 \u30340 \u22522 \u30784 \u20043 \u19978 \u20197 \u21160 \u30011 \u30340 \u25928 \u26524 \u22686 \u22823 30px\u65292 \u22686 \u21152 \u25104 \u21151 \u21518 \u65292 \u26174 \u31034 \'93\u25191 \u34892 \u23436 \u25104 \u65281 \'94\u30340 \u23383 \u26679 \u12290 \
+\cf11 21.\cb3 \uc0\u35843 \u29992 stop()\u26041 \u27861 \u20572 \u27490 \u24403 \u21069 \u25152 \u26377 \u21160 \u30011 \u25928 \u26524 \
+
+\f2 \cf5 \cb6 stop()
+\f1 \cb3 \uc0\u26041 \u27861 \u30340 \u21151 \u33021 \u26159 \u22312 \u21160 \u30011 \u23436 \u25104 \u20043 \u21069 \u65292 \u20572 \u27490 \u24403 \u21069 \u27491 \u22312 \u25191 \u34892 \u30340 \u21160 \u30011 \u25928 \u26524 \u65292 \u36825 \u20123 \u25928 \u26524 \u21253 \u25324 \u28369 \u21160 \u12289 \u28129 \u20837 \u28129 \u20986 \u21644 \u33258 \u23450 \u20041 \u30340 \u21160 \u30011 \u65292 \u23427 \u30340 \u35843 \u29992 \u26684 \u24335 \u20026 \u65306 \cb1 \
+
+\f2 \cb6 $(selector).stop([clearQueue],[goToEnd])
+\f1 \cb1 \
+\cb3 \uc0\u20854 \u20013 \u65292 \u20004 \u20010 \u21487 \u36873 \u39033 \u21442 \u25968 clearQueue\u21644 goToEnd\u37117 \u26159 \u24067 \u23572 \u31867 \u22411 \u20540 \u65292 \u21069 \u32773 \u34920 \u31034 \u26159 \u21542 \u20572 \u27490 \u27491 \u22312 \u25191 \u34892 \u30340 \u21160 \u30011 \u65292 \u21518 \u32773 \u34920 \u31034 \u26159 \u21542 \u23436 \u25104 \u27491 \u22312 \u25191 \u34892 \u30340 \u21160 \u30011 \u65292 \u40664 \u35748 \u20026 false\u12290 \cb1 \
+\cb3 \uc0\u20363 \u22914 \u65292 \u22312 \u39029 \u38754 \u20013 \u65292 \u24403 \u22270 \u29255 \u20803 \u32032 \u27491 \u22312 \u25191 \u34892 \u21160 \u30011 \u25928 \u26524 \u26102 \u65292 \u28857 \u20987 \'93\u20572 \u27490 \'94\u25353 \u38062 \u65292 \u20013 \u27490 \u27491 \u22312 \u25191 \u34892 \u30340 \u21160 \u30011 \u25928 \u26524 \u65292 \u22914 \u19979 \u22270 \u25152 \u31034 \u65306 \cb1 \
+\pard\pardeftab720\partightenfactor0
+{\field{\*\fldinst{HYPERLINK "http://img.mukewang.com/52dcc63f00019e3203870387.jpg"}}{\fldrslt \cf7 {{\NeXTGraphic 52dcc63f00019e3203870387.jpg \width5805 \height5805 \noorient
+}¬}}}\pard\pardeftab720\partightenfactor0
+\cf5 \
+\cb3 \uc0\u22312 \u27983 \u35272 \u22120 \u20013 \u26174 \u31034 \u30340 \u25928 \u26524 \u65306 \cb1 \
+\pard\pardeftab720\partightenfactor0
+{\field{\*\fldinst{HYPERLINK "http://img.mukewang.com/52dcc65f0001ef9605300345.jpg"}}{\fldrslt \cf7 {{\NeXTGraphic 52dcc65f0001ef9605300345.jpg \width7950 \height5175 \noorient
+}¬}}}\pard\pardeftab720\partightenfactor0
+\cf5 \
+\cb3 \uc0\u20174 \u22270 \u20013 \u21487 \u20197 \u30475 \u20986 \u65292 \u24403 \u39029 \u38754 \u20013 \u30340 \u22270 \u29255 \u27491 \u22312 \u25191 \u34892 \u21160 \u30011 \u25928 \u26524 \u21521 \u21491 \u31227 \u21160 \u26102 \u65292 \u30001 \u20110 \u28857 \u20987 \u20102 \'93\u20572 \u27490 \'94\u25353 \u38062 \u65292 \u25191 \u34892 \u20102 \u22270 \u29255 \u20803 \u32032 \u30340 stop\u26041 \u27861 \u65292 \u22240 \u27492 \u65292 \u20013 \u27490 \u20102 \u27491 \u22312 \u25191 \u34892 \u30340 \u21160 \u30011 \u25928 \u26524 \u12290 \
+\
+\cf11 22.\cb3 \uc0\u35843 \u29992 delay()\u26041 \u27861 \u24310 \u26102 \u25191 \u34892 \u21160 \u30011 \u25928 \u26524 \cf4 \
+\pard\pardeftab720\partightenfactor0
+\cf12 \cb1 delay\uc0\u65288 \u65289 \u26159 \u23545 \u34987 \u36873 \u20803 \u32032 \u30340 \u25152 \u26377 \u25490 \u38431 \u20989 \u25968 \u65288 \u20173 \u26410 \u36816 \u34892 \u65289 \u35774 \u32622 \u24310 \u36831 \
+ \uc0\u25152 \u20197 \u31532 \u19968 \u20010 \u31227 \u21160 \u21160 \u30011 \u22312 \u20320 \u28857 \u20987 \u25353 \u38062 \u20043 \u21069 \u23601 \u24050 \u32463 \u22312 \u36827 \u34892 \u65292 \u26080 \u27861 \u24310 \u36831 \u65292 \
+\uc0\u21482 \u20250 \u23545 \u21518 \u19968 \u20010 \u20280 \u32553 \u21160 \u30011 \u36827 \u34892 \u24310 \u36831 \
+\pard\pardeftab720\partightenfactor0
+
+\f2 \cf5 \cb6 delay()
+\f1 \cb3 \uc0\u26041 \u27861 \u30340 \u21151 \u33021 \u26159 \u35774 \u32622 \u19968 \u20010 \u24310 \u26102 \u20540 \u26469 \u25512 \u36831 \u21160 \u30011 \u25928 \u26524 \u30340 \u25191 \u34892 \u65292 \u23427 \u30340 \u35843 \u29992 \u26684 \u24335 \u20026 \u65306 \cb1 \
+
+\f2 \cb6 $(selector).delay(duration)
+\f1 \cb1 \
+\cb3 \uc0\u20854 \u20013 \u21442 \u25968 duration\u20026 \u24310 \u26102 \u20540 \u65292 \u23427 \u30340 \u21333 \u20301 \u26159 \u27627 \u31186 \u65292 \u24403 \u36229 \u36807 \u24310 \u26102 \u20540 \u26102 \u65292 \u21160 \u30011 \u32487 \u32493 \u25191 \u34892 \u12290 \cb1 \
+\cb3 \uc0\u20363 \u22914 \u65292 \u24403 \u39029 \u38754 \u20013 \u22270 \u29255 \u21160 \u30011 \u27491 \u22312 \u25191 \u34892 \u26102 \u65292 \u28857 \u20987 \'93\u24310 \u26102 \'94\u25353 \u38062 \u35843 \u29992 
+\f2 \cb6 delay()
+\f1 \cb3 \uc0\u26041 \u27861 \u25512 \u36831 2000\u27627 \u31186 \u21518 \u32487 \u32493 \u25191 \u34892 \u65292 \u22914 \u19979 \u22270 \u25152 \u31034 \u65306 \cb1 \
+\pard\pardeftab720\partightenfactor0
+{\field{\*\fldinst{HYPERLINK "http://img.mukewang.com/52dcc785000162dc03840385.jpg"}}{\fldrslt \cf7 {{\NeXTGraphic 52dcc785000162dc03840385.jpg \width5760 \height5775 \noorient
+}¬}}}\pard\pardeftab720\partightenfactor0
+\cf5 \
+\cb3 \uc0\u22312 \u27983 \u35272 \u22120 \u20013 \u26174 \u31034 \u30340 \u25928 \u26524 \u65306 \cb1 \
+\pard\pardeftab720\partightenfactor0
+{\field{\*\fldinst{HYPERLINK "http://img.mukewang.com/52dcc7a100014fb806800406.jpg"}}{\fldrslt \cf7 {{\NeXTGraphic 52dcc7a100014fb806800406.jpg \width10200 \height6090 \noorient
+}¬}}}\pard\pardeftab720\partightenfactor0
+\cf5 \
+\cb3 \uc0\u20174 \u22270 \u20013 \u21487 \u20197 \u30475 \u20986 \u65292 \u24403 \u22270 \u29255 \u21160 \u30011 \u27491 \u22312 \u25191 \u34892 \u26102 \u65292 \u28857 \u20987 \'93\u24310 \u26102 \'94\u25353 \u38062 \u65292 \u35843 \u29992 
+\f2 \cb6 delay()
+\f1 \cb3 \uc0\u26041 \u27861 \u20013 \u27490 \u24403 \u21069 \u27491 \u22312 \u25191 \u34892 \u30340 \u22270 \u29255 \u21160 \u30011 \u25928 \u26524 \u65292 \u24403 \u36229 \u36807 \u35774 \u32622 \u30340 \u24310 \u26102 \u20540 \u26102 \u65292 \u21160 \u30011 \u25928 \u26524 \u32487 \u32493 \u25191 \u34892 \u12290 \
+\cf11 23.\uc0\u32534 \u31243 \u32451 \u20064 \cf5 \
+\pard\pardeftab720\partightenfactor0
+\cf4 \cb13 \uc0\u22312 \u39029 \u38754 \u20013 \u65292 \u21019 \u24314 \u20004 \u20010 \u25353 \u38062 \u12290 \cf4 \cb1 \
+\cf4 \cb13 \uc0\u28857 \u20987 \u31532 \u19968 \u20010 \'93\u24038 \u31227 \'94\u25353 \u38062 \u21518 \u65292 \u23558 \u39029 \u38754 \u20013 \u30340 <div>\u20803 \u32032 \u22312 \u24403 \u21069 \u30340 \u20301 \u32622 \u19978 \u65292 \u20197 \u21160 \u30011 \u30340 \u25928 \u26524 \u21521 \u24038 \u31227 \u21160 50\u20010 \u20687 \u32032 \u65307 \cf4 \cb1 \
+\cf4 \cb13 \uc0\u28857 \u20987 \u31532 \u20108 \u20010 \'93\u21491 \u31227 \'94\u25353 \u38062 \u21518 \u65292 \u39029 \u38754 \u20013 \u30340 <div>\u20803 \u32032 \u22312 \u24403 \u21069 \u30340 \u20301 \u32622 \u19978 \u65292 \u20197 \u21160 \u30011 \u30340 \u25928 \u26524 \u21521 \u21491 \u31227 \u21160 50\u20010 \u20687 \u32032 \u12290 \
+<!DOCTYPE html>\
+<html>\
+<style type="text/css">\
+    div\{\
+        position:absolute;\
+        top:50px;\
+        left:200px;\
+        height:50px;\
+        width:50px;\
+        border:1px solid red;\
+        \}\
+</style>\
+<head>\
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />\
+<title>\uc0\u25361 \u25112 \u39064 </title>\
+<script src="http://libs.baidu.com/jquery/1.9.0/jquery.js" type="text/javascript"></script>\
+</head>\
+<body>\
+    <div></div>\
+    <input id="left" type="button" value="\uc0\u24038 \u31227 "/>\
+     <input id="right" type="button" value="\uc0\u21491 \u31227 "/>\
+     <script type="text/javascript">\
+        $(function()\{\
+            var $ltime=0;\
+            var $rtime=0;\
+            $("#left").bind("click",function()\{\
+                $ltime++;\
+                $("div").animate(\{\
+                    left: "-=50px"\
+                \},3000,function()\{\
+                    $("div").html("\uc0\u24038 \u31227 "+$ltime+"\u27425 ")\
+                    \})\
+            \});\
+           $("#right").bind("click",function()\{\
+               $("div").animate(\{\
+                   left: "+=50"\
+               \},3000,function()\{\
+                   $rtime++;\
+                   $(this).html("\uc0\u21491 \u31227 "+$rtime+"\u27425 ")\
+               \})\
+           \}) \
+        \});\
+     </script>\
+</body>\
+</html>}
